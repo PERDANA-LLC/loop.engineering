@@ -1,0 +1,15 @@
+I fixed the one thing the judge marked down. John 2 scored 4 on R6 because its word studies said "the lexicon" without naming one. The checker still passes the unit after the change.
+
+**Changes to `study/john-02.md`:**
+- **The source is named once.** The Original Language Deep Dive now opens with one sentence naming its source: the brief Greek and Hebrew lexicon from STEPBible.org (Tyndale House, Cambridge). The lexicon tool prints that source, and its Greek entries are tagged "(AS)" for Abbott-Smith's *A Manual Greek Lexicon of the New Testament*. I didn't use Thayer or BDAG, which the judge gave as examples, because the definitions didn't come from them.
+- **Every "the lexicon" now says "the STEPBible lexicon".** That covers the entries for temple (both Greek words), destroy, raise, eaten up and believe, the firkin measure in the Tier 2 background, and the Hebrew word for zeal behind Psalm 69:9.
+- **Each claim was checked against the lexicon tool again.** While checking, I added two references the entries themselves cite: the word for the sanctuary lists John 2:19–20, and the verb for raising cites John 2:22 for "he was raised". Nothing else in the unit changed.
+
+**Checker:** PASS on one run. 188 quotations are exact, all 25 verses are printed and expounded, 31 Greek and Hebrew citations are verified, and the unit is 19,773 words.
+
+**Notes:**
+- I added this run's two lines to `progress.md`.
+- I added a proposal to `proposals/prompt-upgrades.md`: that `TEMPLATE.md` give one fixed name for this lexicon, so every unit words it the same way.
+- A person still needs to check the attributions marked "(verify)" and the doctrine calls listed in iteration 1.
+
+STATUS: NOT YET · the judge needs to re-score R6, and a person still has to approve the doctrine and check the "(verify)" attributions

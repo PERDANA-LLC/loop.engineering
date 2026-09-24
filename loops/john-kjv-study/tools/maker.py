@@ -50,6 +50,7 @@ def allowed_tools(unit):
 def main():
     unit = env("UNIT")
     n = next_iteration(unit)
+    os.makedirs(os.path.join(ROOT, "study"), exist_ok=True)   # git keeps no empty folder (SF-9)
     today = datetime.date.today().isoformat()
     passage = "John 1–21 (the book overview)" if unit == "00" else f"John {int(unit)}"
     prompt = open(os.path.join(ROOT, "PROMPT.md"), encoding="utf-8").read() + f"""
