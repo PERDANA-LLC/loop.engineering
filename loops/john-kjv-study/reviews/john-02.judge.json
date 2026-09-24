@@ -1,0 +1,54 @@
+{
+  "scores": [
+    {
+      "line": "R1",
+      "score": 5,
+      "evidence": "Some interpreters count the days from John 1:19 onward... others hear an echo... Both are possible readings, and John does not spell either out, so hold them lightly",
+      "fix": ""
+    },
+    {
+      "line": "R2",
+      "score": 5,
+      "evidence": "ground the doctrine that Jesus Christ fulfils and replaces the temple and its purifying rites: God dwells with men in the Son made flesh",
+      "fix": ""
+    },
+    {
+      "line": "R3",
+      "score": 5,
+      "evidence": "Think of a porch light switched on at night... Jesus' miracles in John are porch lights",
+      "fix": ""
+    },
+    {
+      "line": "R4",
+      "score": 5,
+      "evidence": "Notice John's aside in brackets: the ruler does not know where the wine came from, but the servants do. This is Johannine irony",
+      "fix": ""
+    },
+    {
+      "line": "R5",
+      "score": 5,
+      "evidence": "Days 28-30: Delivery. Teach it to the TONA group or a home group, or record it. Ask two listeners for written feedback",
+      "fix": ""
+    },
+    {
+      "line": "R6",
+      "score": 5,
+      "evidence": "Some press the passive as a 'divine passive' (raised by the Father)... so the form alone cannot carry that weight",
+      "fix": ""
+    },
+    {
+      "line": "R7",
+      "score": 5,
+      "evidence": "six jars · one whip · three days · every heart",
+      "fix": ""
+    },
+    {
+      "line": "R8",
+      "score": 5,
+      "evidence": "This is the first of the great misunderstandings in John, where Jesus speaks of heavenly things and his hearers take him in an earthly sense",
+      "fix": ""
+    }
+  ],
+  "verdict": "PASS",
+  "first_fix": ""
+}
