@@ -1,7 +1,7 @@
 # LOOP-FORGE v1.0 — The Loop Engineering Guide Builder
 ### Zero-to-Hero: a council-of-experts prompt that has Claude write a complete, illustrated guide to loop engineering, with tips, tricks, hacks, examples, case studies, best practices, things to avoid, FAQ, calculators, a spreadsheet workbook, figures, and a starter kit, as files in your docs folder
 
-**Version:** 1.0 · **Created by:** Thomas Perdana, Cash in Blue LLC, with TEACHER-FORGE v1.1 (build mode) · **Runs on:** Claude Opus (latest available) in Claude Code or another agent that can write files, with a chat fallback · **Family:** FORGE, the member that teaches loops
+**Version:** 1.1 (after its first live run) · **Created by:** Thomas Perdana, Cash in Blue LLC, with TEACHER-FORGE v1.1 (build mode) · **Runs on:** Claude Opus (latest available) in Claude Code or another agent that can write files, with a chat fallback · **Family:** FORGE, the member that teaches loops
 
 **Design card:** council of 9 (1 chair + 5 expert lenses + 1 beginner translator + 2 critics) · 12 steps in 5 phases · 8 laws · 4 calculators · 1 workbook · 1 starter kit · 12 commands · delivered as files
 
@@ -11,7 +11,7 @@
 1. Open the project in Claude Code (turn on extended thinking if your setup offers it) and send: `execute @docs/prompt.1.md`. In a chat without file tools, paste everything below `COPY FROM HERE` instead; the prompt switches to parts.
 2. Optional: edit the slots under **GUIDE REQUEST**. Blank slots take their defaults.
 3. First run: set DEPTH to `quick` as a shakedown (about 6,000 words and 9 figures). Read its QA report, then run again at `complete`.
-4. Claude writes everything into `docs/loop-engineering/` and keeps `BUILD-LOG.md` there. If a long run stops partway, send the same command again and it resumes from the log. If your Claude Code has `/goal` ⚠VERIFY, you can also set a goal such as "every item in docs/loop-engineering/BUILD-LOG.md is marked checked" so it keeps going on its own.
+4. Claude writes everything into `docs/loop-engineering/` and keeps `BUILD-LOG.md` there. If a long run stops partway, send the same command again and it resumes from the log. If your Claude Code has `/goal` ⚠VERIFY, you can also set a goal such as "every item in docs/loop-engineering/BUILD-LOG.md is marked checked; print the log's status column as evidence". The goal's evaluator reads only the conversation, not your files, so the evidence has to appear in the chat.
 5. Do the FIELD WORK below before you trust the cost calculator. `HELP` lists every command. Once the guide is done, `BUILD-LOOP <goal>` drafts a loop for your own work.
 
 **Seed request (v0, word for word):**
@@ -26,14 +26,16 @@ explain about loop engineering
 **Build card** (TEACHER-FORGE's notes on this build; its prompt-building calculators, not this guide's loop calculators):
 - **Reading:** target Claude Opus in an agent, since the request says "write to" a folder · reader: a motivated beginner (default) · topic: loop engineering, the 2026 name for designing systems that prompt AI agents for you · components: the seven you named, plus FAQ, plus calculators behind your "spreadsheet" · artifacts: figures ("graphics and images"), a workbook ("spreadsheet"), a starter kit ("all the artifacts needed") · output: `docs/`
 - **Assumptions:** (1) "Loop engineering" means AI-agent loops, not industrial control loops. (2) The guide goes into `docs/loop-engineering/`, inside the folder you named, so it can't collide with the prompts already in `docs/`; set OUTPUT FOLDER to `docs/` if you want it flat. (3) The case studies reuse your usual domains: code, KJV Bible study, options. (4) DEPTH defaults to `complete`.
-- **Freshness check:** the term spread in June 2026, after some models' training data ends, so the prompt carries a dated, sourced Topic Brief (§0.1) and forbids filling in history from memory. The builder could reach search results but not the source pages themselves, so every anchor in the brief is marked ⚠VERIFY.
+- **Freshness check:** the term spread in June 2026, after some models' training data ends, so the prompt carries a dated, sourced Topic Brief (§0.1) and forbids filling in history from memory. The first live run confirmed the Claude Code docs and Anthropic's loops guide at the source; the other anchors are still known only from search results and stay marked ⚠VERIFY.
 - **Roles → seats:** best loop engineer → ORBIT (chair) · best prompt engineer → WHISPERER · best meta prompt engineer → ANVIL · best teacher → SHERPA · added by the D test: SMITH (practice), ABACUS (numbers and workbook), PRISM (figures) · critics: RAZOR, plus GOVERNOR because the risk is medium.
 - **CALC-1, seats:** D = 5, L = 1, R = 1 (a wrong loop guide can cost money and damage work) → 1 + 5 + 1 + (1 + 1) = **9 seats**, standard band.
 - **CALC-2, steps:** K = 9, G = 3, A = 3 (figures, workbook, starter kit), R = 1, L = 1, O = 0 → 2 + 3 + 3 + (1 + 1 + 1) + 0 + 1 = **12 steps**, grand band, grouped into 5 phases.
 - **CALC-4, score:** seed v0 = 3 × (1 + 1 + 0 + 2) + 2 × (0 + 1 + 0 + 0) = **14 / 100, draft** → LOOP-FORGE v1.0 = 3 × (5 + 5 + 5 + 5) + 2 × (5 + 4 + 5 + 4) = **96 / 100, hero-grade**. Output control is a 4 because figures can only be checked by eye where a renderer is installed, and the chat fallback delivers the workbook as CSV text. Reusability is a 4 because the syllabus and Topic Brief are written for this one topic; for another topic, run TEACHER-FORGE's `BUILD` again.
 - **FIELD WORK (yours):** (1) current per-million-token prices from Anthropic's pricing page, for the workbook's "Yours" column; the guide's own examples use invented prices, labeled as invented. (2) Only if you want CS-2's checker to run for real: a plain-text KJV file. (3) After the run, clear the QA report's ⚠VERIFY list against current docs, starting with the Claude Code features.
 - **⚠VERIFY in this prompt:** the term's history and every attribution in §0.1, every Claude Code feature and command, model names and limits, all prices, and plan usage limits.
-- **Changelog:** v1.0, first build from the v0 seed.
+- **Changelog:**
+  - **v1.1** Shakedown fixes from the first live run (`docs/loop-engineering/`, September 24, 2026; findings in its `BUILD-LOG.md`): DANGER gets exit code 5 (SF-1); the workbook check first tests whether LibreOffice Calc can open a spreadsheet, then falls back to a formula engine (SF-2); `PROMPT.md` reports only NOT YET or STUCK, because the checker decides DONE (SF-3); Steps 9 and 11 run in a fresh-context subagent when one is available; a rewrite budget acts as the build's own STUCK rule; the `/goal` tip now says what its evaluator can see; and the Topic Brief records what the run confirmed at the source.
+  - **v1.0** First build from the v0 seed.
 
 ---
 ———————————————— COPY FROM HERE ————————————————
@@ -92,7 +94,7 @@ The folder is done when every file in the manifest exists, every link and image 
 - In early June 2026, Peter Steinberger posted that you shouldn't be prompting coding agents anymore; you should be designing loops that prompt your agents.
 - Addy Osmani named the practice in the essay "Loop Engineering" (addyosmani.com, June 2026) and followed it with "Practical Loop Engineering".
 - Boris Cherny, who leads Claude Code at Anthropic, has been quoted saying he no longer prompts Claude by hand; loops he writes do it.
-- Anthropic published "Loop engineering: Getting started with loops" on claude.com.
+- Anthropic published "Loop Engineering: Getting Started with Loops" on claude.com (June 30, 2026, by Delba de Oliveira and Michael Segner; confirmed at the source in the first run). It describes loops as agents repeating cycles of work until a stop condition is met, in four types: turn-based, goal-based, time-based, and proactive.
 - An August 2026 arXiv paper, "Loop Engineering: Building Blocks, Adoption, and Impact" (2608.21884), measures how far these building blocks show up in open-source repositories.
 
 **Building blocks the sources broadly agree on:** runs that start on a trigger or a schedule · a goal with a stop condition a machine can check · a checker separate from the maker, with rejection as its default · state kept outside the model (progress files, issue boards, git history) · isolation (branches, worktrees, sandboxes) · reusable know-how (skills, project instruction files) · connectors to real tools · token, cost, and time budgets · defined points where a human steps in.
@@ -158,6 +160,7 @@ RAZOR and GOVERNOR (§2) each hold a veto over all eight: anything that breaks a
 - **Where you write.** Create OUTPUT FOLDER if it's missing, and write only inside it. Never modify, move, or delete anything outside it; the prompt files beside it are off limits. The one exception is a temporary scratch folder outside the project for tests and renders, which you delete when you're done. Don't commit, push, or publish anything; the user decides that.
 - **Resume, don't restart.** If OUTPUT FOLDER already holds `BUILD-LOG.md`, you are resuming: read it, continue from the first unfinished item, and leave finished files alone unless the user sends `REDO`.
 - **File budget.** Keep each markdown file under about 5,000 words so no single write gets cut off. If a file runs long, split it into `a` and `b` files and link them.
+- **Rewrite budget (the build's own STUCK rule).** Rewrite a file at most twice for the same finding. After that, log the finding as an open item for the QA report and move on.
 - **Navigation.** Every chapter file opens with its title and a nav line (`⬅ previous · 🏠 README · next ➡`) and ends with the same nav line. All links are relative.
 - **Progress, not narration.** In an agent, keep chat replies short. After each file, print one line: `🔁 LOOP-FORGE │ <n>/<N> │ <file> │ checks: <passed, or what you fixed>`. The content lives in the files.
 - **The build log.** `BUILD-LOG.md` lists every manifest item with its status (todo · written · checked), the checks you ran and their results, and an Errata section. Update it after every file. A fresh session must be able to resume from it alone.
@@ -220,7 +223,7 @@ After the final file, `BUILD-LOOP`, `GRADE-LOOP`, and `UPGRADE-LOOP` become the 
 
 ## 5 · THE PROGRAM — 5 PHASES, 12 STEPS
 
-This program is itself a loop. Its trigger is the user running this prompt, its state is `BUILD-LOG.md`, its checkers are Steps 9–11, its done condition is a manifest with every item checked, and its stop rules are the step gates and the file budget. CS-META dissects it.
+This program is itself a loop. Its trigger is the user running this prompt, its state is `BUILD-LOG.md`, its checkers are Steps 9–11, its done condition is a manifest with every item checked, and its stop rules are the step gates, the file budget, and the rewrite budget. CS-META dissects it.
 
 | Phase | Steps | When it runs | Outcome |
 |---|---|---|---|
@@ -260,9 +263,9 @@ Outcome: the workbook (§7.2), with one sheet per calculator plus the Loop Canva
 
 **STEP 8 · STARTER KIT** · *Lead: SMITH + GOVERNOR + ANVIL*
 Outcome: the kit (§7.3): templates, the dry-run loop script, and the Loop Generator.
-▶ Gate: the script passes a syntax check and all three dry-run demos, the templates have no gaps, and every placeholder has a default or an example.
+▶ Gate: the script passes a syntax check and all five dry-run demos, the templates have no gaps, and every placeholder has a default or an example.
 
-**STEP 9 · RED TEAM** · *Lead: RAZOR*
+**STEP 9 · RED TEAM** · *Lead: RAZOR* · *If you can start a subagent, run this step in one with fresh context that sees only the file and this card, so the maker isn't the checker; otherwise run it yourself and say so in the QA report.*
 Outcome: the file has been attacked for generic advice, contradictions, repeated items, invented or stale facts, broken placeholders, layer mix-ups, missed counts, and figures that decorate instead of teach, and every finding is fixed.
 ▶ Gate: no open finding that would mislead the reader or break a template.
 
@@ -270,7 +273,7 @@ Outcome: the file has been attacked for generic advice, contradictions, repeated
 Outcome: every loop, script, and "try this" instruction checked against the SAFE-LOOP LAW, and every cost figure using blanks or prices labeled as invented.
 ▶ Gate: nothing in the file, followed as written, can run without a cap, destroy data, push to a shared branch, or leak a secret.
 
-**STEP 11 · CLARITY & ACCURACY** · *Lead: SHERPA + ABACUS*
+**STEP 11 · CLARITY & ACCURACY** · *Lead: SHERPA + ABACUS* · *Fresh-context subagent when available, as in Step 9.*
 Outcome: the file reads cleanly to a Level 0 reader, every number checks, and every link and image resolves.
 ▶ Gate: a beginner could follow every instruction without outside help, and the link check is clean.
 
@@ -373,7 +376,7 @@ The block shows the shape. Write these as real markdown headings in each level's
 **Level 4 · AUTHOR: Build and run real loops**
 - From hand to script: the minimal shell loop, known as the Ralph pattern. The same `PROMPT.md` goes in on every run with a fresh context; the files and the progress log are the memory; tests provide backpressure; and the caps and stop file the SAFE-LOOP LAW requires are added. Walk through `kit/loop.sh` line by line.
 - Claude Code's loop features in plain words: headless runs, hooks, `/loop`, `/goal`, routines, subagents, skills, worktrees, and plugins; what each is for and when to pick which (a figure helps). ⚠VERIFY every one.
-- Writing the loop prompt (`kit/PROMPT.md`): the goal, where to look first, one bounded action per turn, how to report, how to say "done" or "stuck", and what it must never touch (the checker, the stop file, anything outside its workspace).
+- Writing the loop prompt (`kit/PROMPT.md`): the goal, where to look first, one bounded action per turn, how to report "not yet" or "stuck" (only the checker decides DONE), and what it must never touch (the checker, the stop file, anything outside its workspace).
 - Permissions and safety: allowlists, sandboxes, why permission-skipping modes belong only in a disposable container, secrets kept out of prompts and logs, and prompt injection when a loop reads outside text (issues, web pages, emails).
 - CALC-3 · LOOP BUDGET.
 
@@ -457,7 +460,7 @@ Rules: inputs sit in one clearly marked area; every result is a live formula, ne
 
 Build it with code if you can (for example, Python with `openpyxl`). If `openpyxl` is missing, install it only inside a throwaway virtual environment in the scratch folder. Also export one CSV per sheet to `workbook/csv/` as a fallback, with formulas kept as text. If you can't run code at all, write the CSVs only and say so in the QA report.
 
-Check: recalculate the workbook and compare it with every checksum in §8. If LibreOffice is installed, recalculate headlessly and read the values back; otherwise, recompute each formula in code with the same inputs. Log which method you used.
+Check: recalculate the workbook and compare it with every checksum in §8. First test whether LibreOffice Calc can open a spreadsheet (convert a two-line CSV); an install without the Calc module prints its version but can't load any spreadsheet. If Calc works, recalculate headlessly and read the values back. If not, evaluate the saved workbook with a formula engine, such as the `formulas` Python package in the throwaway environment. Only if neither works, recompute each formula in code with the same inputs. Log which method you used.
 
 ### 7.3 · The starter kit (SMITH, GOVERNOR, ANVIL)
 
@@ -465,20 +468,20 @@ Check: recalculate the workbook and compare it with every checksum in §8. If Li
 |---|---|---|
 | `kit/README.md` | What each kit file does, the order to use them in, and the safety notes | The autonomy rung each file is meant for |
 | `kit/LOOP-SPEC.md` | The nine-box Loop Spec template | `{{PLACEHOLDERS}}` with examples, then a filled version for CS-1 |
-| `kit/PROMPT.md` | The per-run loop prompt template | The goal, where to look first, one bounded action per turn, how to report, how to say DONE or STUCK, and what it must never touch |
+| `kit/PROMPT.md` | The per-run loop prompt template | The goal, where to look first, one bounded action per turn, how to report NOT YET or STUCK (only the checker decides DONE), and what it must never touch |
 | `kit/progress.md` | The state file template | Done · in progress · next · blocked · decisions · a short attempt log |
 | `kit/loop.sh` | A minimal, safe loop runner | The requirements below |
 | `kit/loop-generator.prompt.md` | The Loop Generator (§9.3) | Complete and copy-paste ready, with no "…" gaps |
 
 `loop.sh` requirements:
 - Runs on the bash that ships with macOS (3.2) and on Linux, so no bash-4-only features. Starts with `set -euo pipefail` and a header comment explaining what it does.
-- Settings come from environment variables with safe defaults: `MAX_ITERS=5`, `DRY_RUN=1`, `STOP_FILE=.loop-stop`, `STUCK_LIMIT=3`, `LOG_FILE=loop-log.csv`, plus `CHECK_CMD` and `AGENT_CMD`.
-- Each iteration: exit 4 if the stop file exists (HUMAN); run the agent, or in a dry run a harmless mock; run the check; append a CSV row in the Run Log columns (§7.2); exit 0 when the check passes (DONE); exit 3 when the same failure output repeats `STUCK_LIMIT` times in a row (STUCK); exit 2 when it reaches `MAX_ITERS` (CAP). Exit 1 stays reserved for the script's own errors, so every stop reason has its own code.
-- A dry run needs no API, no network, and no account. Two mock settings let the reader watch every exit for free: `MOCK_PASS_AT` makes the mock check pass on a chosen iteration (its failure message changes each time, so it shows progress), and `MOCK_STUCK=1` makes it fail with the same message every time.
+- Settings come from environment variables with safe defaults: `MAX_ITERS=5`, `MAX_MINUTES=20`, `DRY_RUN=1`, `STOP_FILE=.loop-stop`, `STUCK_LIMIT=3`, `PROTECT` (files the agent must never change), `LOG_FILE=loop-log.csv`, plus `CHECK_CMD` and `AGENT_CMD`.
+- Each iteration: exit 4 if the stop file exists (HUMAN); exit 2 if the time cap is used up (CAP); run the agent, or in a dry run a harmless mock; exit 5 if a `PROTECT` file's fingerprint changed (DANGER); run the check; append a CSV row in the Run Log columns (§7.2); exit 0 when the check passes (DONE); exit 3 when the same failure output repeats `STUCK_LIMIT` times in a row (STUCK); exit 2 when it reaches `MAX_ITERS` (CAP). Exit 1 stays reserved for the script's own errors, so every stop reason has its own code.
+- A dry run needs no API, no network, and no account. Three mock settings let the reader watch every exit for free: `MOCK_PASS_AT` makes the mock check pass on a chosen iteration (its failure message changes each time, so it shows progress), `MOCK_STUCK=1` makes it fail with the same message every time, and `MOCK_TAMPER=1` makes the mock agent edit the first `PROTECT` file so DANGER can be seen too.
 - The real agent command appears only as a commented-out example flagged ⚠VERIFY, followed by a warning that permission-skipping flags belong only in a disposable container or VM.
 - It never deletes files, never pushes, and never touches anything outside its working folder.
 
-Check: `bash -n kit/loop.sh`; `shellcheck` if it's installed; then, in a scratch copy of the kit, run three dry-run demos: DONE with `MOCK_PASS_AT=3`, CAP with `MOCK_PASS_AT=99`, and STUCK with `MOCK_STUCK=1`. Confirm exit codes 0, 2, and 3 and the log rows, and paste a short transcript of the three demos into the QA report.
+Check: `bash -n kit/loop.sh`; `shellcheck` if it's installed; then, in a scratch copy of the kit, run five dry-run demos: DONE with `MOCK_PASS_AT=3`, CAP with `MOCK_PASS_AT=99`, STUCK with `MOCK_STUCK=1`, HUMAN with the stop file present, and DANGER with `MOCK_TAMPER=1` and a scratch file in `PROTECT`. Confirm exit codes 0, 2, 3, 4, and 5 and the log rows, and paste a short transcript of the five demos into the QA report.
 
 ---
 
@@ -654,7 +657,7 @@ The chapter files follow in Map order, then the Case Study Lab, FAQ, Calculator 
 **Council QA Report** (`13-council-qa-report.md`; RAZOR and GOVERNOR lead):
 1. **Coverage:** target and delivered counts for every component and artifact
 2. **Definition of Done check:** can the reader now do the four things §0 promises? Point to the files that make it true.
-3. **Checks run:** the link check, each figure's check level, how the workbook was verified and against which checksums, and the transcript of the kit's three dry-run demos
+3. **Checks run:** the link check, each figure's check level, how the workbook was verified and against which checksums, and the transcript of the kit's five dry-run demos
 4. **⚠VERIFY list:** every version-sensitive statement in the guide, and where to confirm it
 5. **FIELD WORK list:** what the reader must supply (current prices, a KJV text file for CS-2, their own exports for CS-3)
 6. **Known limitations:** at least two, stated plainly
