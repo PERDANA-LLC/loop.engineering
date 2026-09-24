@@ -306,7 +306,7 @@ def fixture_mutations(text):
     if m:
         out.append(("comma dropped from a quotation (the CS-2 slip)", "QUOTE-MISMATCH",
                     text.replace(m.group(0), f'"{m.group(1)}{m.group(2)}" ({m.group(3)})', 1)))
-    blocks = list(re.finditer(r"^#### John 2:\d+(?:–\d+)? · .*$", text, flags=re.M))
+    blocks = list(re.finditer(r"^#### John 2:\d+(?:\s*[-–]\s*\d+)?\s*[·:—–-].*$", text, flags=re.M))
     walk = [b for b in blocks if b.start() > text.find("### 📜 Walkthrough")]
     if len(walk) >= 3:
         a, b = walk[1].start(), walk[2].start()
