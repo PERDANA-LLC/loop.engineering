@@ -1,0 +1,5 @@
+# per-run scratch: iteration counters and raw Claude JSON output
+.state/
+# the stop file is a switch, not state
+.loop-stop
+__pycache__/

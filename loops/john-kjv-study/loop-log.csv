@@ -1,0 +1,3 @@
+iteration,started_at,action,check_result,stop_reason,tokens_in,tokens_out,diff_lines,note
+1,2026-09-24T21:42:42Z,agent,fail,,,,0,"JUDGE NOT YET · R1=5 R2=5 R3=5 R4=5 R5=5 R6=4 R7=5 R8=5"
+2,2026-09-24T21:54:00Z,agent,pass,DONE,,,0,"JUDGE PASS · R1=5 R2=5 R3=5 R4=5 R5=5 R6=5 R7=5 R8=5"

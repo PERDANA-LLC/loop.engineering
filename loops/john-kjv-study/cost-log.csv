@@ -1,0 +1,5 @@
+time,unit,iteration,role,model,tokens_in,cache_read,tokens_out,cost_usd,turns,error
+2026-09-24T21:52:13Z,02,1,maker,opus,2717459,2561192,55029,2.8627,45,
+2026-09-24T21:54:00Z,02,1,judge,sonnet,29469,0,10850,0.2264,2,
+2026-09-24T21:54:23Z,02,2,maker,opus,313956,304977,1945,0.1717,10,
+2026-09-24T21:55:48Z,02,2,judge,sonnet,29477,5100,8392,0.1824,2,
