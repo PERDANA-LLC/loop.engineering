@@ -19,7 +19,7 @@ here="$(cd "$(dirname "$0")" && pwd)"
 cd "$here"
 # shellcheck source=loop.env
 . ./loop.env
-export PYTHONDONTWRITEBYTECODE=1
+export PYTHONDONTWRITEBYTECODE=1 MAX_UNREVIEWED BLUEPRINT_CHECKPOINT
 
 mode="dry"; unit=""; keep=0
 while [ $# -gt 0 ]; do

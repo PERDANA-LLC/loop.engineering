@@ -1,6 +1,6 @@
 # Prompt upgrade proposals
 
-bs3's Step C, made safe (EX-6.1 in the guide): the maker may add ideas here for improving `PROMPT.md`, `TEMPLATE.md`, `plan.md`, or `rubric.md`. It never edits those files itself. A person reads these, tries any change on a fixed set of units first, and records the decision in `LOOP-SPEC.md`'s changelog.
+KJV72's Spiral (bs3's Step C before it), made safe (EX-6.1 in the guide): the maker may add ideas here for improving `PROMPT.md`, `TEMPLATE.md`, `plan.md`, or `rubric.md`. It never edits those files itself. A person reads these, tries any change on a fixed set of units first, and records the decision in `LOOP-SPEC.md`'s changelog.
 
 Format: `- <date> · john-NN · <file>: <the change, and why>`
 
