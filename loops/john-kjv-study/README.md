@@ -60,6 +60,8 @@ MOCK=judge-fail ./run.sh    # the checker passes but the judge never does: STUCK
 
 (During a dry run, `loop.sh` announces itself as "real": it's running this loop's mock maker and the real checker, rather than its own built-in mock. `run.sh` says "dry run" on the line before.)
 
+> **While v2.0 settles in:** the dry run plays the loop's own John 2 from `tests/fixtures/`, and those fixtures are rebuilt from the v2.0 test run, which was still in progress when v2.0 reached `main`. Until they land, `./run.sh` stops with "the dry run needs tests/fixtures/john-02.good.md", and `LOOP-SPEC.md` still shows v1.0's numbers. `./run.sh --real` works now.
+
 **2 · Run it for real, on its own branch.** You need Claude Code (`claude`) signed in, and Python 3.
 
 ```bash
