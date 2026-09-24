@@ -33,10 +33,11 @@ A unit passes the checker only when every rule holds. The checker's report names
    - Add the parsing code when you discuss the form: `*agapas* (G25, John 21:15, V-PAI-2S)`.
    - Hebrew: `*mishkan* (H4908)` or `*mishkan* (H4908, Exodus 25:9)`.
    - A Strong's number anywhere else fails. Greek or Hebrew script needs a citation on the same line. The tools make every number certain, so the prompts' "(verify)" escape is not used for Strong's numbers.
+   - Name the lexicon when you draw on it. `tools/lexicon.py` is the STEPBible.org brief lexicon (Tyndale House, Cambridge), whose Greek entries draw largely on G. Abbott-Smith, *A Manual Greek Lexicon of the New Testament*: say so, rather than 'the lexicon'. Where it prints a note that its file contradicts the Greek, use the transliteration it shows.
 5. **Counts come from the concordance.** A numeral before "times" is a claim about the text. Compute it with `python3 tools/concordance.py "believ*" John` and paste the line it prints into the counts block at the end of the file. The checker recounts every line. Story details are written in words ('Peter denied him three times').
 6. **The maker never grades itself.** No self-audit, no /10 scores, no PASS/FIX list, no claim that 'all verses are verified'. The prompts' own checks (KJV72's V1–V14 and self-audit, KJV82's V1–V18 and conformity check) are the checker's and the judge's job here (Part 6).
 7. **Nothing left unfinished:** no `TODO`, `TBD`, `{{`, or `[insert`. A write-in line is not a placeholder: it is a line holding only underscores, at least ten (`__________`), and blanks inside a sentence or a table cell are written the same way.
-8. **Length:** a chapter unit has 8,000–20,000 words; the overview has 8,000–18,000. Length earns nothing with the judge. Depth does.
+8. **No word limit.** A unit is as long as its chapter needs; nothing checks its length (the owner's decision). Length earns nothing with the judge, though. Depth does.
 9. **Headings follow the skeleton, in order,** at the levels shown. You may add a `####` heading inside a section, except inside the Walkthrough and the Chapter-by-Chapter Breakdown, where every `####` is a block. No quotation marks in headings.
 10. **The whole chapter is printed, exactly.** Read & Mark prints every verse of the chapter, in order, each as its own paragraph in the form `**N** text`. `python3 tools/verse.py "John 2" --read-mark` prints it ready to paste. The checker compares every verse with the KJV file.
 11. **Labels are bold, at the start of a line,** spelled as the skeleton shows (`**The Theft:**`, `**Says:**`, `**View A:**`). The checker finds the parts of a section by their labels.
@@ -345,7 +346,7 @@ The counts block holds one line per count you state (`query | scope | number`, e
 | 🌱 **Life Pathway** | The Theft (this chapter's own terms), the Source (Christ, with the verse, and his means), the Channel, and the Abundance Guard | 72 GR8, C3 | four labels; a reference in The Source |
 | 💡 **Light Pathway** | The Darkness, the Source (with the verse), the Lamp, and the Love Guard | 72 GR9, C3 | four labels; a reference in The Source |
 | 🙏 **Open** | A prayer focus (Psalm 119:18 suits most lessons) and one warm-up question, the icebreaker tied to the Golden Thread | 82 P2, 72 C1 | both labels; ≥ 2 write-in lines |
-| 🏺 **Setting the Scene** | The Historian's context: facts that change how the text reads | 82 P3, 72 C2 | 150–300 words |
+| 🏺 **Setting the Scene** | The Historian's context: facts that change how the text reads, in two or three paragraphs | 82 P3, 72 C2 | — |
 | 🖍️ **Read & Mark** | The marking key, then the whole chapter as `**N** text`, one verse per paragraph, in marked sections that follow the Passage Map | 82 P4, 72 C4 | every verse, in order, exact |
 | 👁️ **Observe** (Level 1) | 5–8 'what does it say?' questions, each naming its verse | 82 P5 | 5–8 questions, each citing a verse of the chapter |
 | 🔤 **Mind the Language** | 3 or more archaic or misreadable words, with their verse, and a blank for the modern sense | 82 P6, 72 GR5 | 3+ rows; each word is in its verse, and in the Glossary |

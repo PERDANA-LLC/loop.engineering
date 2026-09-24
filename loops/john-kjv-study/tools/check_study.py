@@ -35,7 +35,7 @@ The format is KJV72 x KJV82 (TEMPLATE.md). What it checks:
   KEY-VERSES, ROOT, MEMORY-VERSE, LIST-COUNT   whole-verse quotations and list sizes
   GREEK-*, HEBREW-*     every Strong's citation is real, in the verse cited, spelled and parsed right
   COUNT-*               every "N times" is backed by a recomputed concordance count
-  LENGTH, PLACEHOLDER, SELF-GRADE, SELF-CLAIM
+  PLACEHOLDER, SELF-GRADE, SELF-CLAIM    (there is no word limit: the owner's decision, v2.0)
 """
 import argparse
 import os
@@ -47,9 +47,7 @@ import kjvlib  # noqa: E402
 
 # ---- limits (a person changes these, never the loop; see LOOP-SPEC.md) ----
 MAX_BLOCK_VERSES = 6                       # walkthrough blocks stay small enough to be in-depth
-WORDS = {"chapter": (8000, 20000), "overview": (8000, 18000)}
 SESSION_MINUTES = 75                       # the prompts' default session (plan.md D7)
-SCENE_WORDS = (150, 300)                   # KJV82 P3 asks for 150-250 words; KJV72 C2 for 2-3 paragraphs
 MAX_REPORTED = 60
 OTHER_VERSIONS = r"\b(ESV|NIV|NIrV|NASB(?:95)?|NKJV|NLT|RSV|NRSV|CSB|HCSB|AMP|MSG|NET|ASV|YLT|WEB|BSB|LSB|TB2?|GNT|CEV|TLB|Darby|Geneva)\b"
 
@@ -844,12 +842,6 @@ def check_lesson(lines, heads, found, chapter, quotes, cites, doctrine_blocks, r
         need_labels(lines, span, ["Prayer focus", "Warm-up"], '"Open"', rep)
         if writeins(lines, span) < 2:
             rep.add("WRITE-IN", span[0], "the warm-up question needs at least two write-in lines (ten or more underscores)")
-    span = sub_span(heads, found, L, "Setting the Scene")
-    if span is not None:
-        n = len(re.findall(r"\S+", text_of(lines, (span[0] + 1, span[1]))))
-        lo, hi = SCENE_WORDS
-        if not lo <= n <= hi:
-            rep.add("LENGTH", span[0], f"Setting the Scene has {n} words; it needs {lo}–{hi}")
     printed = 0
     span = sub_span(heads, found, L, "Read & Mark")
     if span is not None:
@@ -1185,7 +1177,7 @@ def check_greek(body, heads, found, rep):
             rep.add("GREEK-UNKNOWN" if skey.startswith("G") else "HEBREW-UNKNOWN", ln,
                     f"{strong} is not in the lexicon. Look it up: python3 tools/lexicon.py {strong}")
             continue
-        lemma_keys = {kjvlib.translit_key(e["translit"]) for e in entries}
+        lemma_keys = set().union(*(kjvlib.lemma_keys(e) for e in entries))
         ref = None
         if refstr:
             try:
@@ -1195,7 +1187,7 @@ def check_greek(body, heads, found, rep):
                 continue
         if skey.startswith("H"):
             if kjvlib.translit_key(translit) not in lemma_keys:
-                want = entries[0]["translit"].replace(".", "")
+                want = kjvlib.display_translit(entries[0])
                 rep.add("HEBREW-TRANSLIT", ln, f"*{translit}* doesn't match {strong}, which is {entries[0]['lemma']} "
                                                f"({want}); write *{want}*")
                 continue
@@ -1217,11 +1209,11 @@ def check_greek(body, heads, found, rep):
             continue
         forms = {kjvlib.translit_key(w["translit"]) for w in words}
         # the word's own STEP number may have its own lemma (οἶδα, G6063, is a form filed under G1492)
-        forms |= {kjvlib.translit_key(e["translit"]) for w in words for s in w["strongs"].split()
-                  for e in kjvlib.lexicon().get(kjvlib.strong_key(s), [])}
+        forms |= {k for w in words for s in w["strongs"].split()
+                  for e in kjvlib.lexicon().get(kjvlib.strong_key(s), []) for k in kjvlib.lemma_keys(e)}
         if kjvlib.translit_key(translit) not in lemma_keys | forms:
             rep.add("GREEK-TRANSLIT", ln, f"*{translit}* doesn't spell {strong}: the lemma is "
-                                          f"{entries[0]['translit']} and the form in {ref} is "
+                                          f"{kjvlib.display_translit(entries[0])} and the form in {ref} is "
                                           f"{', '.join(sorted({w['translit'] for w in words}))}")
             continue
         if morph and morph not in {mm for w in words for mm in w["morphs"].split()}:
@@ -1278,13 +1270,7 @@ def check_counts(raw, body, rep):
 LEFTOVER = re.compile(r"^\s*(?:[-*+]\s+)?(?:\*\*[^*\n]+\*\*\s*)?(?:\.\.\.|…)\s*\??\s*$|\|\s*(?:\.\.\.|…)\s*\|", re.M)
 
 
-def check_misc(body, kind, heads, rep):
-    words = len(re.findall(r"\S+", body))
-    lo, hi = WORDS[kind]
-    if not lo <= words <= hi:
-        rep.add("LENGTH", 0, f"the unit has {words:,} words; it must have {lo:,}–{hi:,}. "
-                             + ("Deepen thin sections rather than padding." if words < lo else
-                                "Cut repetition; length earns nothing."))
+def check_misc(body, heads, rep):
     for m in re.finditer(r"\{\{|\bTODO\b|\bTBD\b|\[insert|lorem ipsum|\bXXX\b", body, flags=re.I):
         rep.add("PLACEHOLDER", line_of(body, m.start()), f'placeholder text "{m.group(0)}" is still in the unit')
     for m in LEFTOVER.finditer(body):
@@ -1343,7 +1329,7 @@ def run(unit, path):
     else:
         check_overview(lines, heads, found, rep)
     check_counts(raw, body, rep)
-    check_misc(body, kind, heads, rep)
+    check_misc(body, heads, rep)
     stats = {"quotes": len(quotes), "covered": covered, "greek": len(cites), "printed": printed,
              "questions": questions, "doctrines": blocks, "words": len(re.findall(r"\S+", body))}
     return rep, stats

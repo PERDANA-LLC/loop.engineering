@@ -7,7 +7,7 @@ Three groups:
   * rule tests on small synthetic snippets (quotations, references, Greek, counts);
   * format tests on two minimal units that keep every rule of the KJV72 x KJV82 format with
     brief prose (tests/fixtures/john-02.minimal.md and john-00.minimal.md): each passes every
-    check but LENGTH, and each known-bad mutation of it fails with the right code;
+    check, and each known-bad mutation of it fails with the right code;
   * fixture tests: the good John 2 unit that the loop itself wrote passes, and each known-bad
     mutation of it fails with the right code.
 The format and fixture tests are also the known-good / known-bad sample for CALC-1.
@@ -165,6 +165,17 @@ class Greek(unittest.TestCase):
         # Why the Gather items are labeled "Group question 1", not "G1": G1 is a Strong's number.
         self.assertEqual(codes_for("- **G1 · 10 min.** What surprised you?"), ["STRONGS-LOOSE"])
 
+    def test_a_lexicon_transliteration_that_contradicts_its_greek(self):
+        # SF-10: the lexicon file gives G2411 (the noun ἱερόν) as 'hieros', the adjective G2413. The judge caught
+        # it; now the Greek decides: hieron passes, hieros fails, and the verse's own form still passes.
+        self.assertEqual(codes_for("*hieron* (G2411, John 2:15) and *hierou* (G2411, John 2:15)"), [])
+        self.assertEqual(codes_for("*hieros* (G2411, John 2:15)"), ["GREEK-TRANSLIT"])
+        self.assertEqual(codes_for("*hieros* (G2413, 2 Timothy 3:15)"), [])
+
+    def test_standard_spelling_of_a_diphthong_with_breathing(self):
+        # The lexicon writes the breathing inside a diphthong (ohutos, uhios); the standard spelling passes.
+        self.assertEqual(codes_for("*houtōs* (G3779, John 3:16) and *huios* (G5207, John 3:16)"), [])
+
     def test_textus_receptus_reading_at_john_1_18(self):
         self.assertEqual(codes_for("*huios* (G5207, John 1:18)"), [])
 
@@ -278,9 +289,10 @@ def overview_mutations(t):
 class Format(unittest.TestCase):
     """The KJV72 x KJV82 format on two minimal units: every rule kept, prose kept short."""
 
-    def test_minimal_units_pass_all_but_length(self):
-        self.assertEqual(check_file("02", read(MINIMAL)), ["LENGTH"])
-        self.assertEqual(check_file("00", read(MINIMAL_00)), ["LENGTH"])
+    def test_minimal_units_pass(self):
+        # There is no word limit (the owner's decision in v2.0), so a short unit that keeps every rule passes.
+        self.assertEqual(check_file("02", read(MINIMAL)), [])
+        self.assertEqual(check_file("00", read(MINIMAL_00)), [])
 
     def test_every_chapter_mutation_fails_with_its_code(self):
         text = read(MINIMAL)

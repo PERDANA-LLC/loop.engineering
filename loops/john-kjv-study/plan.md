@@ -37,11 +37,12 @@ Twenty-two units: a book overview, then one unit per chapter of John. Each unit 
 | D2 | Tier 3 reads through Reformed hermeneutics, as KJV72 and KJV82 specify: Scripture interprets Scripture. Other positions are stated fairly and at their strongest before the Reformed position is argued. The Debate Corner ends with a Pastoral Warning. |
 | D3 | Textual questions: the KJV prints John 5:3–4 and John 7:53–8:11 in full and reads "the only begotten Son" (John 1:18) there. Teach the text the KJV prints. At Tier 3, explain calmly and fairly that many modern editions differ here and why, without scorn for either side. |
 | D4 | Peter's restoration: the change between *agapaō* (G25, John 21:15) and *phileō* (G5368, John 21:17) is debated. Present both readings (a meaningful distinction, or stylistic variation) and don't overclaim. |
-| D5 | Sources: name the author and work, summarize, never quote a non-Scripture source; write "(verify)" if unsure. |
+| D5 | Sources: name the author and work, summarize, never quote a non-Scripture source; write "(verify)" if unsure. The lexicon the tools use is named too: the STEPBible.org brief lexicon, whose Greek entries draw on Abbott-Smith. |
 | D6 | Audience: the TONA small group, from new believers to teachers. |
 | D7 | The prompts' session defaults: an adult small group of mixed Bible familiarity, one 75-minute session per lesson, a balanced emphasis (doctrinal, devotional, and evangelistic together). |
 | D8 | The format is KJV72 × KJV82 (`TEMPLATE.md`), replacing bs3 v3.1. Life (John 10:10), Light (John 8:12), humility and Christ's glory, source discipline, and the detailed doctrines are not options: they are in every unit. |
 | D9 | KJV82's Blueprint checkpoint: unit 00 carries the Lesson Map, and chapter units don't start until a person approves unit 00 (`BLUEPRINT_CHECKPOINT` in `loop.env`). |
+| D10 | No word limit: a unit is as long as its chapter needs. Length earns nothing with the judge. |
 
 ## The units
 

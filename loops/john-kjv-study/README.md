@@ -2,7 +2,7 @@
 
 A Claude loop that writes an in-depth King James Version study of the Gospel of John, one unit at a time, checks every word of Scripture against the KJV text, and hands each unit to a person for doctrine review. It was designed with the guide in [`docs/loop-engineering`](../../docs/loop-engineering/README.md), following its ten-step build checklist, and it runs on the guide's own [`kit/loop.sh`](../../docs/loop-engineering/kit/loop.sh), copied here unchanged.
 
-**What it produces:** 22 units in `study/`. `john-00.md` is the book overview and the workbook's front matter; `john-01.md` to `john-21.md` are John's chapters, one lesson each. Together they make a 21-lesson workbook, an in-depth commentary, and a leader's guide for the TONA group. The first unit in this format, John 2, was written by the loop itself during the shakedown run: [`study/john-02.md`](study/john-02.md).
+**What it produces:** 22 units in `study/`. `john-00.md` is the book overview and the workbook's front matter; `john-01.md` to `john-21.md` are John's chapters, one lesson each. Together they make a 21-lesson workbook, an in-depth commentary, and a leader's guide for the TONA group. The first unit in this format, John 2, was written by the loop itself during the shakedown run (DONE on its third iteration, in 29 minutes, for $8.13): [`study/john-02.md`](study/john-02.md).
 
 **The one-page design** is [`LOOP-SPEC.md`](LOOP-SPEC.md): the nine boxes, the four calculators with their arithmetic, the score, and the changelog.
 
@@ -60,8 +60,6 @@ MOCK=judge-fail ./run.sh    # the checker passes but the judge never does: STUCK
 
 (During a dry run, `loop.sh` announces itself as "real": it's running this loop's mock maker and the real checker, rather than its own built-in mock. `run.sh` says "dry run" on the line before.)
 
-> **While v2.0 settles in:** the dry run plays the loop's own John 2 from `tests/fixtures/`, and those fixtures are rebuilt from the v2.0 test run, which was still in progress when v2.0 reached `main`. Until they land, `./run.sh` stops with 'the dry run needs tests/fixtures/john-02.good.md', and `LOOP-SPEC.md` still shows v1.0's numbers. `./run.sh --real` works now.
-
 **2 · Run it for real, on its own branch.** You need Claude Code (`claude`) signed in, and Python 3.
 
 ```bash
@@ -98,7 +96,7 @@ for i in 1 2 3; do ./run.sh --real || break; done
 | Every reference exists | the same | ❌ `John 22:1`, `Psalm 151`, a verse past the end of a chapter |
 | Every verse is expounded | the same | Gaps, overlaps, blocks longer than 6 verses, a block that never quotes its own text, a block without Says, Means, and Asks |
 | The format | the same | A missing section or labeled part; a question without write-in lines or without an answer; a practice with no verse; a Life or Light set with no inward or no outward practice; a missing guard or commitment line; a Light Planner without the participant's own heart first; a session plan that isn't 75 minutes; a flagged word missing from the Glossary or not in its verse; a doctrine block without its five parts or its quoted cross-references, or a skipped category; a scholar silent in the council |
-| Greek and Hebrew citations | the same, against the Textus Receptus word index | A Strong's number that isn't in the verse cited, a misspelled word, a wrong parsing, an uncited Greek word |
+| Greek and Hebrew citations | the same, against the Textus Receptus word index | A Strong's number that isn't in the verse cited, a misspelled word, a wrong parsing, an uncited Greek word, a transliteration that contradicts the Greek |
 | Counts | the same, by recounting | ❌ 'Believe occurs 98 times', when the KJV of John has 101 words starting believ- and the Greek *pisteuō* (G4100, John 20:31) occurs 100 times in John's Textus Receptus |
 | Faithfulness, Christ at the center, the tiers and the ladder, the exposition, the doctrine, honesty, life and light, a workbook a leader can run, John's design | the judge, `rubric.md` | What a script can't see: misreadings, generic pathways, vague practices, loose doctrine, overclaiming, tiers that read alike |
 | Doctrine | **you**, `review.sh` | Everything the loop must never decide on its own |

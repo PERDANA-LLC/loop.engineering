@@ -412,6 +412,77 @@ def translit_key(s):
     return s
 
 
+_GREEK_LETTERS = {"α": "a", "β": "b", "γ": "g", "δ": "d", "ε": "e", "ζ": "z", "η": "ē", "θ": "th", "ι": "i",
+                  "κ": "k", "λ": "l", "μ": "m", "ν": "n", "ξ": "x", "ο": "o", "π": "p", "ρ": "r", "σ": "s",
+                  "ς": "s", "τ": "t", "υ": "y", "φ": "ph", "χ": "ch", "ψ": "ps", "ω": "ō", "ϛ": "s",
+                  " ": " ", "᾽": "'", "’": "'", "'": "'"}
+
+
+def greek_translit(greek):
+    """Transliterate Greek the way the lexicon means to (SBL style): ἱερόν -> hieron, οὕτως -> houtōs,
+    ἄγγελος -> angelos, υἱός -> huios, ἀνθ᾽ οὗ -> anth' hou. Accents and iota subscript drop; rough breathing
+    is h (rh on rho). The lexicon's own transliterations write a diphthong's breathing inside it (ohutos, uhios)."""
+    letters = []                                   # [letter, rough breathing, diaeresis]
+    for ch in unicodedata.normalize("NFD", greek.lower()):
+        if unicodedata.combining(ch):
+            if letters and ch == "\u0314":
+                letters[-1][1] = True
+            elif letters and ch == "\u0308":
+                letters[-1][2] = True
+            continue
+        letters.append([ch, False, False])
+    out = []
+    for i, (ch, rough, diaeresis) in enumerate(letters):
+        prev = letters[i - 1][0] if i else ""
+        t = _GREEK_LETTERS.get(ch, "")
+        # a diphthong: au, eu, ēu, ou, or ai, ei, oi, ui (a diaeresis splits the vowels)
+        diphthong = bool(prev) and not diaeresis and ((ch == "υ" and prev in "αεηο") or (ch == "ι" and prev in "αεου"))
+        if diphthong and ch == "υ":
+            t = "u"
+        if diphthong and prev == "υ":
+            out[-1] = "u"                          # ui, as in huios
+        if ch == "γ" and i + 1 < len(letters) and letters[i + 1][0] in "γκξχ":
+            t = "n"                                # a nasal gamma
+        if rough and ch == "ρ":
+            t = "rh"
+        elif rough and diphthong:
+            out[-1] = "h" + out[-1]                # the breathing of a diphthong sits on its second vowel
+        elif rough:
+            t = "h" + t
+        out.append(t)
+    return "".join(out)
+
+
+def translit_parts(s):
+    return [p.strip() for p in re.split(r"[,=;/]", s or "") if p.strip()]
+
+
+def _greek_lemmas(entry):
+    return [p for p in translit_parts(entry.get("lemma")) if re.search(r"[\u0370-\u03ff\u1f00-\u1fff]", p)]
+
+
+def lemma_keys(entry):
+    """The spellings a citation of this lexicon entry may use (as translit_key keys): the lexicon's own
+    transliterations, and the Greek lemma's. Where the two disagree outright, the Greek wins. That covers five
+    entries that contradict their own Greek (among them G2411, the noun ἱερόν, given the adjective's 'hieros')
+    and 24 that write a diphthong's breathing inside it ('ohutos' for οὗτος): LOOP-SPEC.md, SF-10."""
+    own = {translit_key(greek_translit(l)) for l in _greek_lemmas(entry)} - {""}
+    given = {translit_key(t) for t in translit_parts(entry.get("translit"))} - {""}
+    if own and not own & given:
+        return own
+    return own | given
+
+
+def display_translit(entry):
+    """The transliteration the tools print: the lexicon's, unless it contradicts the Greek lemma."""
+    given = (entry.get("translit") or "").replace(".", "")
+    lemmas = _greek_lemmas(entry)
+    own = {translit_key(greek_translit(l)) for l in lemmas} - {""}
+    if own and not own & {translit_key(t) for t in translit_parts(given)}:
+        return ", ".join(greek_translit(l) for l in lemmas)
+    return given
+
+
 def words_in(ref_str, strong=None):
     words = greek_index().get(ref_str, [])
     if strong:
