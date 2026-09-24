@@ -9,7 +9,9 @@
 
 ## Decisions (follow these; only a person adds or changes them)
 - 2026-09-24: KJV only. Every quotation is copied from `kjv/kjv.tsv` through `tools/verse.py` (plan.md D1). Decided by: the owner.
-- 2026-09-24: bs3 v3.1 structure, with the verse-by-verse walkthrough added in Tier 2; Tier 3 reads through Reformed hermeneutics with other views stated fairly (plan.md D2, TEMPLATE.md). Decided by: the owner.
+- 2026-09-24: bs3 v3.1 structure, with the verse-by-verse walkthrough added in Tier 2; Tier 3 reads through Reformed hermeneutics with other views stated fairly (plan.md D2, TEMPLATE.md). Decided by: the owner. **Replaced on 2026-09-24 by the next line.**
+- 2026-09-24: The format is KJV72 × KJV82, one combined format drawing on both prompts: KJV82's workbook lesson for participants, KJV72's Berean Council study for the leader, and KJV82's Leader's Guide (plan.md D8, TEMPLATE.md). Life, Light, humility, source discipline, and detailed doctrines are in every unit. Decided by: the owner.
+- 2026-09-24: Sessions are 75 minutes for an adult small group of mixed Bible familiarity, balanced emphasis (plan.md D7). Unit 00's Lesson Map is approved before chapter units start (plan.md D9). Decided by: the owner.
 - 2026-09-24: The KJV's text at John 1:18, John 5:3–4, and John 7:53–8:11 is taught as printed; the textual questions are explained at Tier 3 (plan.md D3). Decided by: the owner.
 - 2026-09-24: One unit per run; a person reviews every unit's doctrine before it counts (autonomy rung 2). Decided by: the owner.
 

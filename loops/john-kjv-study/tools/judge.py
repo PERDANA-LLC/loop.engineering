@@ -17,7 +17,7 @@ import subprocess
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LINES = ["R1", "R2", "R3", "R4", "R5", "R6", "R7", "R8"]
+LINES = [f"R{n}" for n in range(1, 10)]
 MUST_BE_FIVE = {"R1", "R6"}
 
 

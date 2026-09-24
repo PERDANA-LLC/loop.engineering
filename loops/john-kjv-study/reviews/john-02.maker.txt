@@ -1,7 +1,0 @@
-I fixed the one thing the judge marked down (R6, scored 4) and changed nothing else.
-
-- **The fix:** the Tier 2 Background paragraph in `study/john-02.md` said the waterpots held "roughly 120 to 180 gallons," which doesn't match its own figure of about nine gallons per firkin. It now says six jars of two or three firkins each held **roughly 108 to 162 gallons**. The later line, "well over a hundred gallons," still fits.
-- **Checker:** `python3 tools/check_study.py 02` passes: 71 quotations exact, 25 of 25 verses covered in 10 blocks, 18 Greek/Hebrew citations verified, 9,944 words.
-- **Progress log:** I added the two lines for iteration 2 to the end of `progress.md`. They repeat last run's request that a person check the six commentator attributions marked for verification.
-
-STATUS: NOT YET · The fix is in and the checker passes; next come the judge's re-score and a person's doctrine review.

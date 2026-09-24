@@ -3,23 +3,61 @@
   "properties": {
     "scores": {
       "type": "array",
-      "minItems": 8,
-      "maxItems": 8,
+      "minItems": 9,
+      "maxItems": 9,
       "items": {
         "type": "object",
         "properties": {
-          "line": {"type": "string", "enum": ["R1", "R2", "R3", "R4", "R5", "R6", "R7", "R8"]},
-          "score": {"type": "integer", "minimum": 1, "maximum": 5},
-          "evidence": {"type": "string"},
-          "fix": {"type": "string"}
+          "line": {
+            "type": "string",
+            "enum": [
+              "R1",
+              "R2",
+              "R3",
+              "R4",
+              "R5",
+              "R6",
+              "R7",
+              "R8",
+              "R9"
+            ]
+          },
+          "score": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5
+          },
+          "evidence": {
+            "type": "string"
+          },
+          "fix": {
+            "type": "string"
+          }
         },
-        "required": ["line", "score", "evidence", "fix"],
+        "required": [
+          "line",
+          "score",
+          "evidence",
+          "fix"
+        ],
         "additionalProperties": false
       }
     },
-    "verdict": {"type": "string", "enum": ["PASS", "NOT YET"]},
-    "first_fix": {"type": "string"}
+    "verdict": {
+      "type": "string",
+      "enum": [
+        "PASS",
+        "NOT YET"
+      ]
+    },
+    "first_fix": {
+      "type": "string"
+    }
   },
-  "required": ["scores", "verdict", "first_fix"],
+  "required": [
+    "scores",
+    "verdict",
+    "first_fix"
+  ],
   "additionalProperties": false
 }

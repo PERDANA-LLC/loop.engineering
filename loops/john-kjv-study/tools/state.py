@@ -4,7 +4,7 @@ handed when a run stops without success. Only the scripts write units.tsv; the m
 can't (it's protected, and the maker's permissions don't include it).
 
   python3 tools/state.py status                 print every unit's status
-  python3 tools/state.py next                   print the next unit to run (exit 4: review due; 1: none left)
+  python3 tools/state.py next                   print the next unit to run (exit 4: a person is due; 1: none left)
   python3 tools/state.py get NN                 print one unit's status
   python3 tools/state.py set NN STATUS [--stop S] [--note TEXT] [--reviewer NAME] [--inc-runs]
   python3 tools/state.py escalate NN STOP       write reviews/john-NN.escalation.md
@@ -68,6 +68,7 @@ def cmd_status(_args):
 
 def cmd_next(args):
     max_unreviewed = int(os.environ.get("MAX_UNREVIEWED", "3"))
+    checkpoint = os.environ.get("BLUEPRINT_CHECKPOINT", "1") == "1"
     rows = load()
     for wanted in ("revise", "drafting", "todo"):
         pick = next((r for r in rows if r["status"] == wanted), None)
@@ -76,6 +77,13 @@ def cmd_next(args):
             if wanted == "todo" and len(waiting) >= max_unreviewed:
                 print(f"HUMAN: {len(waiting)} drafts wait for your review ({', '.join(waiting)}). "
                       f"Review them with ./review.sh, then run again.")
+                return 4
+            overview = find(rows, "00")["status"]
+            if wanted == "todo" and checkpoint and pick["unit"] != "00" and overview != "approved":
+                # KJV82's Blueprint checkpoint: the course plan is approved before the lessons are drafted.
+                print(f"HUMAN: the Blueprint checkpoint. Unit 00 (status: {overview}) holds the Lesson Map that "
+                      f"sets every lesson's title, Big Idea, and memory verse; approve it before chapter units "
+                      f"start (./review.sh), or run one anyway with ./run.sh --real --unit NN.")
                 return 4
             print(pick["unit"])
             return 0

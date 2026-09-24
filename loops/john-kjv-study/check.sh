@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # check.sh: the loop's CHECK_CMD. loop.sh runs it after every maker turn; only its exit code decides DONE.
 #
-#   1. The deterministic checker (tools/check_study.py): exact KJV quotations, every verse covered,
-#      real Greek citations, recounted counts, the bs3 structure. Free and strict.
+#   1. The deterministic checker (tools/check_study.py): exact KJV quotations, the chapter printed exactly,
+#      every verse expounded, real Greek citations, recounted counts, the KJV72 x KJV82 format. Free and strict.
 #   2. Only if that passes: the judge (tools/judge.py), a separate model with no tools and its own rubric.
 #
 # Exit 0 = both passed. Anything else = NOT YET, and the reports in reviews/ become the next prompt.

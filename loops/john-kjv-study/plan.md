@@ -4,7 +4,7 @@
      The maker reads the "For every unit" section and its own unit's entry. Only a person edits this file,
      and each change gets a changelog line in LOOP-SPEC.md. -->
 
-Twenty-two units: a book overview, then one unit per chapter of John. Each unit is one bs3 study (Map, Christological Root, three tiers) with a verse-by-verse walkthrough, so the finished set is an in-depth commentary and a teaching guide for the TONA group at the same time.
+Twenty-two units: a book overview, then one unit per chapter of John. Each unit follows the owner's combined format, KJV72 × KJV82 (`TEMPLATE.md`): KJV82's workbook lesson for the participants, KJV72's Berean Council study for the leader, with a verse-by-verse walkthrough, and KJV82's Leader's Guide. The overview is the workbook's front matter and course plan. The finished set is an in-depth commentary, a 21-lesson workbook, and a leader's guide for the TONA group at the same time.
 
 ## For every unit
 
@@ -34,18 +34,21 @@ Twenty-two units: a book overview, then one unit per chapter of John. Each unit 
 | # | Decision |
 |---|---|
 | D1 | KJV only. Every quotation is copied from `kjv/kjv.tsv` through `tools/verse.py`. |
-| D2 | Tier 3 reads through Reformed hermeneutics, as bs3 specifies. Other positions are stated fairly and at their strongest before the Reformed position is argued. The Debate Corner ends with a Pastoral Warning. |
+| D2 | Tier 3 reads through Reformed hermeneutics, as KJV72 and KJV82 specify: Scripture interprets Scripture. Other positions are stated fairly and at their strongest before the Reformed position is argued. The Debate Corner ends with a Pastoral Warning. |
 | D3 | Textual questions: the KJV prints John 5:3–4 and John 7:53–8:11 in full and reads "the only begotten Son" (John 1:18) there. Teach the text the KJV prints. At Tier 3, explain calmly and fairly that many modern editions differ here and why, without scorn for either side. |
 | D4 | Peter's restoration: the change between *agapaō* (G25, John 21:15) and *phileō* (G5368, John 21:17) is debated. Present both readings (a meaningful distinction, or stylistic variation) and don't overclaim. |
 | D5 | Sources: name the author and work, summarize, never quote a non-Scripture source; write "(verify)" if unsure. |
 | D6 | Audience: the TONA small group, from new believers to teachers. |
+| D7 | The prompts' session defaults: an adult small group of mixed Bible familiarity, one 75-minute session per lesson, a balanced emphasis (doctrinal, devotional, and evangelistic together). |
+| D8 | The format is KJV72 × KJV82 (`TEMPLATE.md`), replacing bs3 v3.1. Life (John 10:10), Light (John 8:12), humility and Christ's glory, source discipline, and the detailed doctrines are not options: they are in every unit. |
+| D9 | KJV82's Blueprint checkpoint: unit 00 carries the Lesson Map, and chapter units don't start until a person approves unit 00 (`BLUEPRINT_CHECKPOINT` in `loop.env`). |
 
 ## The units
 
 Working titles may be improved by the maker. The focus notes say what the unit must engage; they are not a script.
 
 ### 00 · Book Overview · That Ye Might Believe
-Passage: John 1–21. The author as the church has received him (the beloved disciple, traditionally John the son of Zebedee, writing late in the first century; mark tradition as tradition). John's purpose (John 20:30–31). The outline above, the signs, the "I am" sayings, the feasts, and the key words with concordance counts. How John differs from Matthew, Mark, and Luke (long discourses, the Judean ministry, several Passovers) without setting the Gospels against each other. The chapter-by-chapter breakdown replaces the walkthrough.
+Passage: John 1–21. The workbook's front matter and course plan (KJV82's Frame and Blueprint) and KJV72's study of the book as a whole. The Lesson Map sets each chapter-lesson's title, Big Idea, core doctrines, objective, memory verse, and Life → Light line; the chapter units follow it, so choose them with care (the working titles below are a starting point). How to Use This Workbook, the course-long Life & Light Ledger, the Teacher FAQ, and the Advanced Teacher Hacks live here. The author as the church has received him (the beloved disciple, traditionally John the son of Zebedee, writing late in the first century; mark tradition as tradition). John's purpose (John 20:30–31). The outline above, the signs, the "I am" sayings, the feasts, and the key words with concordance counts. How John differs from Matthew, Mark, and Luke (long discourses, the Judean ministry, several Passovers) without setting the Gospels against each other. The chapter-by-chapter breakdown replaces the walkthrough.
 
 ### 01 · John 1 · The Word Made Flesh
 Passage: John 1:1–51. The Prologue: the Word, *logos* (G3056, John 1:1), with God and God; creation (John 1:3); life and light shining in darkness (John 1:4–5); John sent as a witness (John 1:6–8); the Word received and rejected (John 1:10–13); the Word made flesh who "dwelt among us" (John 1:14), *skēnoō* (G4637, John 1:14), with Exodus 25:8–9 and Exodus 40:34 behind it; grace and truth (John 1:14, 17). The Baptist's witness and the Lamb of God (John 1:29, 36) with Isaiah 40:3. The first disciples and "Come and see" (John 1:39, 46); the titles given to Jesus in this chapter; Jacob's ladder (John 1:51 with Genesis 28:12). D3 applies to John 1:18.
