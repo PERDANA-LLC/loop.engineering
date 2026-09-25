@@ -21,3 +21,5 @@ iteration,started_at,action,check_result,stop_reason,tokens_in,tokens_out,diff_l
 2,2026-09-25T01:22:06Z,agent,fail,STUCK,,,5,"NOT YET · MISSING×1"
 1,2026-09-25T01:22:10Z,agent,fail,,,,3,"NOT YET · MISSING×1"
 2,2026-09-25T01:22:11Z,agent,fail,STUCK,,,5,"NOT YET · MISSING×1"
+1,2026-09-25T01:22:15Z,agent,fail,,,,3,"NOT YET · MISSING×1"
+2,2026-09-25T01:22:17Z,agent,fail,STUCK,,,5,"NOT YET · MISSING×1"
