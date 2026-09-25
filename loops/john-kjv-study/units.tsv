@@ -4,7 +4,7 @@ unit	status	runs	last_stop	updated	reviewer	note
 02	review	2	DONE	2026-09-24T23:36:45Z		checker and judge passed; waiting for your review
 03	stuck	1	STUCK	2026-09-25T01:21:40Z		read reviews/john-03.escalation.md
 04	stuck	1	STUCK	2026-09-25T01:21:46Z		read reviews/john-04.escalation.md
-05	todo	0				
+05	stuck	1	STUCK	2026-09-25T01:21:51Z		read reviews/john-05.escalation.md
 06	todo	0				
 07	todo	0				
 08	todo	0				
