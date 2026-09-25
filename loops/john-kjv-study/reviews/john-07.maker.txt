@@ -1,1 +1,20 @@
-You've hit your session limit · resets 9:10am (UTC)
+John 7 is now a complete unit, and `tools/check_study.py 07` passes it on the first run: 129 quotations exact, all 53 verses printed and expounded in 13 blocks, 28 questions answered, 7 doctrine blocks, and 104 Greek citations checked.
+
+**What happened before this run:** the previous run hit its session limit partway through. The file stopped after Tier 4, which is why the checker reported the Doctrine, Council, and Leader's Guide sections as missing. I kept everything already written and added what was missing:
+
+- **Doctrine:** 7 blocks: the true God who sent the Son; the Son sent and speaking his Father's teaching; his hour not yet come; the Spirit as rivers of living water; the world that hates the light; "If any man thirst"; and righteous judgment with open confession. Ecclesiology and Eschatology go under Assumed Here.
+- **The Council's Hard Questions:** whether Jesus deceived his brothers (John 7:8 against 7:10); whether John knew Jesus was born in Bethlehem (read as John's irony); and how to handle John 7:53 under D3, with the story itself left to unit 08. Then the Life & Light Audit.
+- **Leader's Guide:** a 75-minute session plan, answers to all 28 questions (Q21–Q28 marked as model answers), a 23-word glossary, the Leader's Map, shepherding notes, and teaching angles.
+
+**The checker's other seven problems are fixed:**
+- **Near-miss quotations:** the John 7:5 phrase is now exact. The Westminster Confession wording is now a summary without quotation marks.
+- **Counts:** the concordance tool confirmed all five numbers, and their lines are in the counts block. I added a sixth count ("whence", 3 times in John 7).
+- **A wrong claim about the Greek:** the Deep Dive implied that one Greek word stands behind all three uses of "openly" in the chapter. At John 7:10 it is actually *phanerōs*, and the text now says so.
+
+**For a person to review:**
+- The attributions marked "(verify)", listed in full in `progress.md`.
+- The doctrine calls: the Reformed reading of John 7:39 in the Debate Corner, the preference for the KJV's punctuation of John 7:37–38, and the handling of John 7:53.
+
+**Proposal:** I added a note to `proposals/prompt-upgrades.md`. It is the second time an interrupted run has left a half-written unit (after john-03). I suggested that `run.sh` look for a usage-limit message in the last maker output and say so in RUN CONTEXT.
+
+STATUS: NOT YET · the checker passes; the unit now needs the judge's scores and a person's doctrine review

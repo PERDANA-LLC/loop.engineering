@@ -1,12 +1,1 @@
-NOT YET · john-07 · deterministic checks found 10 problem(s). Fix every one, then stop.
-1. STRUCTURE (whole file): missing the "## Doctrine" section (or it is out of order); sections must follow TEMPLATE.md's order
-2. STRUCTURE (whole file): missing the "## Leader's Guide" section (or it is out of order); sections must follow TEMPLATE.md's order
-3. STRUCTURE (whole file): missing the "## The Council" section (or it is out of order); sections must follow TEMPLATE.md's order
-4. SCRIPTURE-NEARMISS (line 52): 'did not believe in him' looks like 2 Kings 17:14 (89% alike) but isn't its exact wording. The KJV reads: "Notwithstanding they would not hear, but hardened their necks, like to the neck of their fathers, that did not believe in the LORD their God." Quote Scripture exactly (in double quotation marks with the reference), or put the thought in your own words without quotation marks.
-5. SCRIPTURE-NEARMISS (line 656): 'eternally begotten of the Father' looks like John 1:14 (89% alike) but isn't its exact wording. The KJV reads: "And the Word was made flesh, and dwelt among us, (and we beheld his glory, the glory as of the only begotten of the Father,) full of grace and truth." Quote Scripture exactly (in double quotation marks with the reference), or put the thought in your own words without quotation marks.
-6. COUNT-UNBACKED (line 702): "4 times" is a count. Compute it with tools/concordance.py and add its line to the <!-- counts --> block, or write the number in words if it's a detail of the story
-7. COUNT-UNBACKED (line 702): "5 times" is a count. Compute it with tools/concordance.py and add its line to the <!-- counts --> block, or write the number in words if it's a detail of the story
-8. COUNT-UNBACKED (line 704): "3 times" is a count. Compute it with tools/concordance.py and add its line to the <!-- counts --> block, or write the number in words if it's a detail of the story
-9. COUNT-UNBACKED (line 706): "4 times" is a count. Compute it with tools/concordance.py and add its line to the <!-- counts --> block, or write the number in words if it's a detail of the story
-10. COUNT-UNBACKED (line 726): "8 times" is a count. Compute it with tools/concordance.py and add its line to the <!-- counts --> block, or write the number in words if it's a detail of the story
-NOT YET · COUNT-UNBACKED×5 SCRIPTURE-NEARMISS×2 STRUCTURE×3
+PASS · john-07 · deterministic checks · 129 quotations exact · 53/53 verses printed exactly · 53/53 verses expounded in 13 blocks · 28 questions answered · 7 doctrine blocks · 104 Greek/Hebrew citations verified · 30,621 words
