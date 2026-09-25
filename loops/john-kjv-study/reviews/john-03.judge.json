@@ -1,0 +1,60 @@
+{
+  "scores": [
+    {
+      "line": "R1",
+      "score": 5,
+      "evidence": "The site of Aenon near Salim is not certain.",
+      "fix": ""
+    },
+    {
+      "line": "R2",
+      "score": 5,
+      "evidence": "Every problem in John 3 is answered in Jesus.",
+      "fix": ""
+    },
+    {
+      "line": "R3",
+      "score": 5,
+      "evidence": "Who around you is like Nicodemus: respectable, religious, perhaps even churchgoing, but with no sign of the life the Spirit gives",
+      "fix": ""
+    },
+    {
+      "line": "R4",
+      "score": 5,
+      "evidence": "Do you come to Jesus with a compliment, or with your need?",
+      "fix": ""
+    },
+    {
+      "line": "R5",
+      "score": 5,
+      "evidence": "Regeneration, the new birth from above, is necessary for every person without exception before he can see or enter the kingdom of God.",
+      "fix": ""
+    },
+    {
+      "line": "R6",
+      "score": 5,
+      "evidence": "It would be overreach to say the word 'literally means' either sense alone.",
+      "fix": ""
+    },
+    {
+      "line": "R7",
+      "score": 5,
+      "evidence": "How I carry it there this week, in love, not accusation",
+      "fix": ""
+    },
+    {
+      "line": "R8",
+      "score": 5,
+      "evidence": "Do not accept 'no one' too quickly, and do not shame the person either.",
+      "fix": ""
+    },
+    {
+      "line": "R9",
+      "score": 5,
+      "evidence": "Readers differ on whether Jesus' words end at verse 15 and John the evangelist comments from verse 16.",
+      "fix": ""
+    }
+  ],
+  "verdict": "PASS",
+  "first_fix": ""
+}

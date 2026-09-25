@@ -1,13 +1,1 @@
-NOT YET · john-03 · deterministic checks found 11 problem(s). Fix every one, then stop.
-1. STRUCTURE (whole file): missing the "## Doctrine" section (or it is out of order); sections must follow TEMPLATE.md's order
-2. STRUCTURE (whole file): missing the "## Leader's Guide" section (or it is out of order); sections must follow TEMPLATE.md's order
-3. STRUCTURE (whole file): missing the "## The Council" section (or it is out of order); sections must follow TEMPLATE.md's order
-4. COUNT-UNBACKED (line 471): "25 times" is a count. Compute it with tools/concordance.py and add its line to the <!-- counts --> block, or write the number in words if it's a detail of the story
-5. COUNT-UNBACKED (line 475): "2 times" is a count. Compute it with tools/concordance.py and add its line to the <!-- counts --> block, or write the number in words if it's a detail of the story
-6. QUOTE-UNREFERENCED (line 517): "like the Son of man" has no reference. Double quotation marks are only for Scripture, followed by (Book C:V). If it isn't Scripture, use single quotation marks or italics.
-7. COUNT-UNBACKED (line 556): "5 times" is a count. Compute it with tools/concordance.py and add its line to the <!-- counts --> block, or write the number in words if it's a detail of the story
-8. QUOTE-UNREFERENCED (line 664): "the washing of regeneration" has no reference. Double quotation marks are only for Scripture, followed by (Book C:V). If it isn't Scripture, use single quotation marks or italics.
-9. COUNT-UNBACKED (line 677): "13 times" is a count. Compute it with tools/concordance.py and add its line to the <!-- counts --> block, or write the number in words if it's a detail of the story
-10. COUNT-UNBACKED (line 679): "8 times" is a count. Compute it with tools/concordance.py and add its line to the <!-- counts --> block, or write the number in words if it's a detail of the story
-11. SCRIPTURE-NEARMISS (line 691): 'lest his deeds be exposed' looks like John 3:20 (80% alike) but isn't its exact wording. The KJV reads: "For every one that doeth evil hateth the light, neither cometh to the light, lest his deeds should be reproved." Quote Scripture exactly (in double quotation marks with the reference), or put the thought in your own words without quotation marks.
-NOT YET · COUNT-UNBACKED×5 QUOTE-UNREFERENCED×2 SCRIPTURE-NEARMISS×1 STRUCTURE×3
+PASS · john-03 · deterministic checks · 222 quotations exact · 36/36 verses printed exactly · 36/36 verses expounded in 14 blocks · 26 questions answered · 9 doctrine blocks · 70 Greek/Hebrew citations verified · 25,723 words

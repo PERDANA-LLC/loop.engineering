@@ -514,7 +514,7 @@ Verse 11 moves into the plural: 'We speak... ye receive not'. The 'we' may be Je
 #### John 3:13–15 · The Son of Man Lifted Up
 **Says:** "And no man hath ascended up to heaven, but he that came down from heaven, even the Son of man which is in heaven." (John 3:13) "And as Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up:" (John 3:14) "That whosoever believeth in him should not perish, but have eternal life." (John 3:15)
 
-**Means:** Why can Jesus speak of heavenly things? Because no one else has been there to report on them. Agur asked long ago, "Who hath ascended up into heaven, or descended?" (Proverbs 30:4). Jesus' answer is that the only one who knows heaven is the one who came from it. 'The Son of man' is Jesus' favourite title for himself, drawn from Daniel's vision of one "like the Son of man" who receives from God "dominion, and glory, and a kingdom" (Daniel 7:13–14). John has already shown the Son of man as Jacob's ladder, the link between heaven and earth (John 1:51). The KJV's text ends 'which is in heaven', which presents the Son as belonging to heaven even while he speaks on earth; many modern editions lack those words (see the Original Language Deep Dive).
+**Means:** Why can Jesus speak of heavenly things? Because no one else has been there to report on them. Agur asked long ago, "Who hath ascended up into heaven, or descended?" (Proverbs 30:4). Jesus' answer is that the only one who knows heaven is the one who came from it. 'The Son of man' is Jesus' favourite title for himself, drawn from Daniel's vision of one "like the Son of man" (Daniel 7:13) who receives from God "dominion, and glory, and a kingdom" (Daniel 7:14). John has already shown the Son of man as Jacob's ladder, the link between heaven and earth (John 1:51). The KJV's text ends 'which is in heaven', which presents the Son as belonging to heaven even while he speaks on earth; many modern editions lack those words (see the Original Language Deep Dive).
 
 Then Jesus reaches back to Numbers 21. Israel complained against God and Moses, "And the LORD sent fiery serpents among the people, and they bit the people; and much people of Israel died." (Numbers 21:6) The people confessed their sin, and God's remedy was strange: "Make thee a fiery serpent, and set it upon a pole: and it shall come to pass, that every one that is bitten, when he looketh upon it, shall live." (Numbers 21:8) Moses made one of brass, "and it came to pass, that if a serpent had bitten any man, when he beheld the serpent of brass, he lived." (Numbers 21:9) The pole in Hebrew is *nes* (H5251), a standard or banner, something raised high to be seen.
 
@@ -661,7 +661,7 @@ John 3 is one of Scripture's clearest windows onto the order in which God saves,
 ### ⚔️ Debate Corner
 **The question:** What does Jesus mean by 'born of water and of the Spirit' (John 3:5)?
 
-**Position 1 · Water means Christian baptism, the means of new birth.** This is the dominant reading of the early church (Justin Martyr's *First Apology* connects John 3:3–5 with baptism, verify) and the teaching of the Roman Catholic Church and of the Lutheran and some Anglican traditions: in baptism the Spirit regenerates. Its holders would stress that John 3 sits between two scenes of baptizing (John 1:25–33; John 3:22–23), that the early Christian reader would inevitably hear 'water' as baptism, that Titus 3:5 speaks of "the washing of regeneration", and that Peter joins baptism and the gift of the Spirit (Acts 2:38). They do not usually teach that baptism works apart from God; they hold that God has bound himself to work through it.
+**Position 1 · Water means Christian baptism, the means of new birth.** This is the dominant reading of the early church (Justin Martyr's *First Apology* connects John 3:3–5 with baptism, verify) and the teaching of the Roman Catholic Church and of the Lutheran and some Anglican traditions: in baptism the Spirit regenerates. Its holders would stress that John 3 sits between two scenes of baptizing (John 1:25–33; John 3:22–23), that the early Christian reader would inevitably hear 'water' as baptism, that Paul speaks of "the washing of regeneration" (Titus 3:5), and that Peter joins baptism and the gift of the Spirit (Acts 2:38). They do not usually teach that baptism works apart from God; they hold that God has bound himself to work through it.
 
 **Position 2 · Water means natural birth; Spirit means the second birth.** Some read 'water' as physical birth (the waters of the womb, or procreation), so that Jesus says: you have been born once, of water; you must be born again, of the Spirit. Its holders point to Nicodemus's question about the mother's womb (John 3:4) and to the pairing in verse 6: 'born of the flesh' and 'born of the Spirit'. Its weakness is that a condition beginning 'except' would then require something every human being already has, and the ancient evidence for 'water' as a term for natural birth is thin.
 
@@ -688,7 +688,7 @@ Every Greek and Hebrew definition below comes from one source: the brief lexicon
 
 **Judgment already.** 'Condemned already' is *kekritai* (G2919, John 3:18, V-RPI-3S), a perfect passive: the verdict stands. The STEPBible lexicon lists 'to judge, adjudge' among the verb's senses, and in context the judging is condemnation. 'Condemnation' in John 3:19 is *krisis* (G2920, John 3:19), judgment, and the verse defines it as the revealed preference for darkness.
 
-**Exposed.** *Elegchthē* (G1651, John 3:20, V-APS-3S) is an aorist passive subjunctive: 'lest his deeds be exposed'. The STEPBible lexicon gives the senses 'to convict', 'to reprove, rebuke', and 'to expose', and places John 3:20 under 'to expose' with Ephesians 5:11 and Ephesians 5:13. The same verb appears for the Spirit's work, "he will reprove the world of sin" (John 16:8). What the unbeliever flees in John 3:20, the Spirit brings to bear in mercy in John 16:8.
+**Exposed.** *Elegchthē* (G1651, John 3:20, V-APS-3S) is an aorist passive subjunctive: in plain words, so that his deeds are not exposed. The STEPBible lexicon gives the senses 'to convict', 'to reprove, rebuke', and 'to expose', and places John 3:20 under 'to expose' with Ephesians 5:11 and Ephesians 5:13. The same verb appears for the Spirit's work, "he will reprove the world of sin" (John 16:8). What the unbeliever flees in John 3:20, the Spirit brings to bear in mercy in John 16:8.
 
 **Disobedience and wrath.** In John 3:36 the two sides are *pisteuōn* (G4100, John 3:36, V-PAP-NSM), 'the one believing', and *apeithōn* (G544, John 3:36, V-PAP-NSM), 'the one disobeying'. The STEPBible lexicon defines *apeitheō* as 'to disobey, be disobedient', and lists John 3:36. The KJV's 'believeth not' is a fair rendering, because in John unbelief toward the Son is disobedience to God. *Orgē* (G3709, John 3:36) is listed by the STEPBible lexicon under God's anger in the sense of its effect, and *menei* (G3306, John 3:36, V-PAI-3S) is present: it remains.
 
@@ -723,4 +723,287 @@ And every good thing the chapter holds is found in him. The new birth comes from
 - **Outward:** Tomorrow, if you lead or teach, confess to one fellow leader (__________) one area where you have preferred to be seen as knowledgeable rather than to admit you were wrong, and ask them to pray with you, doing the truth in the light (John 3:21).
 - **Outward:** Today, reach out to one person who stays away from church because they expect to be judged (__________), and invite them to read John 3:16–17 with you over a meal, saying plainly that Jesus came to save and not to condemn (John 3:17).
 
-<!-- NEXT -->
+## 📚 Doctrine
+### Theology Proper · The Love of God Measured by His Gift
+**Proposition:** God's love for a rebellious world is not a feeling that stays in heaven but a free and costly act: the Father gave his only begotten Son. That love is not caused by anything lovely in the world. It rises from God himself, and it rests first and eternally on the Son.
+
+**Textual Anchor:** "For God so loved the world, that he gave his only begotten Son" (John 3:16); "The Father loveth the Son, and hath given all things into his hand." (John 3:35) The 'world' John has in view is the world that "knew him not" (John 1:10), and the manner of the love, *houtōs* (G3779, John 3:16), is shown by the gift.
+
+**Cross-References:** "In this was manifested the love of God toward us, because that God sent his only begotten Son into the world, that we might live through him." (1 John 4:9); "But God commendeth his love toward us, in that, while we were yet sinners, Christ died for us." (Romans 5:8); "He that spared not his own Son, but delivered him up for us all, how shall he not with him also freely give us all things?" (Romans 8:32)
+
+**Errors Refuted:** (1) *A God of love would never judge.* Many today would say: 'If God is love, then wrath, condemnation, and perishing are later human ideas projected onto him.' John 3 puts the gift of the Son and the wrath that abides (John 3:36) in the same breath; the love is shown precisely by rescue from real perishing. (2) *The Son had to win over an unwilling Father.* Some popular preaching of the cross pictures a loving Son pacifying an angry Father. John 3:16 makes the Father's love the source of the Son's coming, not its result. (3) *God loves us because we are lovable.* The world loved darkness (John 3:19); God loved it anyway. His love is free, as he told Israel: "The LORD did not set his love upon you... because ye were more in number" (Deuteronomy 7:7).
+
+**Pastoral Fruit:** Assurance that is measured by the cross, not by circumstances. Worship that begins with the Father's heart and not only with our need. And a humility that stops asking 'why me?' in pride and starts asking it in wonder.
+
+### Christology · The Son of Man from Heaven, Above All
+**Proposition:** Jesus is the Son of man who came down from heaven, the only one who speaks of heavenly things as an eyewitness; he is above all, the Father has given all things into his hand, and faith or unbelief toward him decides every person's destiny.
+
+**Textual Anchor:** "no man hath ascended up to heaven, but he that came down from heaven, even the Son of man which is in heaven" (John 3:13); "He that cometh from above is above all" (John 3:31); "what he hath seen and heard, that he testifieth" (John 3:32).
+
+**Cross-References:** "For I came down from heaven, not to do mine own will, but the will of him that sent me." (John 6:38); "And Jesus came and spake unto them, saying, All power is given unto me in heaven and in earth." (Matthew 28:18); "that in all things he might have the preeminence" (Colossians 1:18)
+
+**Errors Refuted:** (1) *Jesus is one great teacher among many.* This is Nicodemus's own starting point, and it is widely held today: a 'teacher come from God' (John 3:2), to be ranked with other sages. John 3 answers that every other teacher, even the greatest prophet, 'is of the earth', while the Son alone 'cometh from heaven' and is 'above all' (John 3:31). (2) *Jesus became the Son of God at his baptism or resurrection.* Adoptionist views, ancient and modern, hold that a man was raised to divine sonship. The Son of man 'came down from heaven' (John 3:13); he did not rise to it from below. (3) *The Son is a created being.* The Watchtower Society holds that the Son is God's first creation. But the Son speaks the very words of God, has the Spirit without measure, and holds 'all things' in his hand (John 3:34–35), and John has already said that "all things were made by him" (John 1:3).
+
+**Pastoral Fruit:** Confidence in his word: he has seen what he tells us. Worship: the one we trust is above all. And an end to shopping among teachers: there is no second source for heavenly things.
+
+### Pneumatology · The Spirit Gives the New Birth Freely
+**Proposition:** The Holy Spirit is the author of the new birth. He gives it sovereignly and freely, as the wind blows where it wills; it is not produced, controlled, or scheduled by human effort or ritual, though its effects are seen. The same Spirit rests on the Son without measure, so that the Spirit who gives life comes to us through Christ.
+
+**Textual Anchor:** "Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God." (John 3:5); "The wind bloweth where it listeth... so is every one that is born of the Spirit." (John 3:8); "for God giveth not the Spirit by measure unto him." (John 3:34)
+
+**Cross-References:** "And I will put my spirit within you, and cause you to walk in my statutes, and ye shall keep my judgments, and do them." (Ezekiel 36:27); "It is the spirit that quickeneth; the flesh profiteth nothing" (John 6:63); "by the washing of regeneration, and renewing of the Holy Ghost;" (Titus 3:5)
+
+**Errors Refuted:** (1) *The Spirit is an impersonal force.* Some groups, including the Watchtower Society, describe the holy spirit as God's active force rather than a person. John 3 speaks of the wind to picture the Spirit's freedom, not to reduce him to it: he 'listeth', he wills, and in Jesus' later teaching he teaches, testifies, and reproves (John 14:26; John 15:26; John 16:8). (2) *New birth can be produced by technique.* Some revival practice, following methods associated with Charles Finney (verify), taught that conversion follows when the right means are used in the right way. John 3:8 does not forbid preaching and pleading, but it denies that anyone controls the result. (3) *The Spirit is given only to a spiritual elite after conversion.* Every one born of God is born of the Spirit (John 3:8); the Spirit is not a later upgrade but the author of the first life.
+
+**Pastoral Fruit:** Prayer, because the Spirit's work is his. Hope for the hardest heart, because the wind goes where it will. And patience in evangelism: we sow and water, and we listen for the sound of the wind.
+
+### Anthropology & Sin · Flesh Begets Flesh, and Men Love Darkness
+**Proposition:** Human nature, apart from the Spirit, can only reproduce itself; it cannot rise to the life of God. The root of this is not ignorance but a will turned away from God: people love darkness rather than light because their deeds are evil, and they avoid the light to escape exposure.
+
+**Textual Anchor:** "That which is born of the flesh is flesh" (John 3:6); "men loved darkness rather than light, because their deeds were evil." (John 3:19); "For every one that doeth evil hateth the light, neither cometh to the light, lest his deeds should be reproved." (John 3:20)
+
+**Cross-References:** "Behold, I was shapen in iniquity; and in sin did my mother conceive me." (Psalm 51:5); "Because the carnal mind is enmity against God: for it is not subject to the law of God, neither indeed can be." (Romans 8:7); "And you hath he quickened, who were dead in trespasses and sins;" (Ephesians 2:1)
+
+**Errors Refuted:** (1) *People are basically good and need only teaching.* Pelagius in the early church, and much modern moralism, holds that human nature is able to obey God if it is instructed and encouraged. Nicodemus had the best instruction in the world; Jesus says he needs a birth, not a lesson (John 3:3, 6). (2) *Unbelief is only a lack of evidence.* Many honest sceptics would say: 'Give me proof and I will believe.' John 3:19–20 does not deny that people have real questions, but it says the deepest reason people refuse the light is moral: they love what the light would expose. (3) *The religious are closer to life than the irreligious.* The flesh can be very religious; 'born of the flesh is flesh' was said to a teacher of Israel.
+
+**Pastoral Fruit:** Honesty about ourselves. Compassion without naivety toward unbelievers, whose problem is ours too. And gratitude: if we have come to the light, it is because God brought us.
+
+### Soteriology & Grace · No Entrance Without the New Birth
+**Proposition:** Regeneration, the new birth from above, is necessary for every person without exception before he can see or enter the kingdom of God. It is God's work, in which he gives new life; its fruit is faith in Christ and coming to the light.
+
+**Textual Anchor:** "Except a man be born again, he cannot see the kingdom of God." (John 3:3); "Marvel not that I said unto thee, Ye must be born again." (John 3:7) The necessity is *dei* (G1163, John 3:7), and the verb is passive: *gennēthē* (G1080, John 3:3, V-APS-3S), 'be born'.
+
+**Cross-References:** "Therefore if any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new." (2 Corinthians 5:17); "Of his own will begat he us with the word of truth, that we should be a kind of firstfruits of his creatures." (James 1:18); "Whosoever believeth that Jesus is the Christ is born of God" (1 John 5:1)
+
+**Errors Refuted:** (1) *Everyone baptized as an infant is regenerate.* Baptismal regeneration, taught by the Roman Catholic Church and in the Lutheran tradition, holds that God has promised to give the new birth in baptism, and its holders would add that faith must be nourished for that life to continue. The Reformed churches honour baptism as a sign and seal, but John 3 addresses a man who bore the covenant sign of his day and tells him he must be born again; the sign does not guarantee the thing signified (see the Debate Corner). (2) *Being born again is for a certain kind of Christian.* Some treat it as the mark of one style of piety. Jesus says 'Ye must', plural, to all. (3) *Being born again is a decision we make.* In popular evangelism it is often equated with praying a prayer. Faith and repentance are real acts we perform, but birth is something done to us (John 1:13).
+
+**Pastoral Fruit:** Humility, because no one contributes to his own birth. Urgency, because no one enters without it. And tenderness, because the one who needs it most may be sitting in the choir.
+
+### Soteriology & Grace · The Son Lifted Up in the Place of the Dying
+**Proposition:** The Son of man must be lifted up on the cross, as the brass serpent was lifted up in the wilderness, so that dying sinners who look to him in faith may live. The remedy is God's provision; it bears the likeness of the curse; and it saves by substitution, the Son made sin and a curse for those who believe.
+
+**Textual Anchor:** "And as Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up:" (John 3:14); "That whosoever believeth in him should not perish, but have eternal life." (John 3:15) The infinitive *hupsōthēnai* (G5312, John 3:14, V-APN) depends on the same 'must'.
+
+**Cross-References:** "For he hath made him to be sin for us, who knew no sin; that we might be made the righteousness of God in him." (2 Corinthians 5:21); "Christ hath redeemed us from the curse of the law, being made a curse for us" (Galatians 3:13); "But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed." (Isaiah 53:5)
+
+**Errors Refuted:** (1) *The cross is only an example of love.* The moral influence view, associated with Peter Abelard (verify) and much modern liberal theology, holds that the cross saves by moving us to love God in return. The serpent did not heal by inspiring the Israelites; it healed because God appointed it as the remedy for a deadly bite, and the Son is lifted up 'that whosoever believeth in him should not perish'. (2) *Looking is too simple; something must be added.* Some teach that faith must be completed by works of merit or by ritual before life is secure. The bitten Israelite 'beheld the serpent of brass' and 'lived' (Numbers 21:9). (3) *The lifting up is only exaltation, not death.* John tells us plainly what the lifting up signified: "what death he should die" (John 12:33).
+
+**Pastoral Fruit:** Rest, because the remedy is finished and outside us. Evangelism that lifts up Christ rather than technique. And a daily habit of looking away from our wounds to him.
+
+### Soteriology & Grace · Everlasting Life Through Believing
+**Proposition:** Everlasting life is received through believing on the Son, not through works, rank, heritage, or ritual. Faith is the empty hand that receives the gift; it rests on the person of the Son; and it is offered to 'whosoever', without exception of class, nation, or past.
+
+**Textual Anchor:** "that whosoever believeth in him should not perish, but have everlasting life." (John 3:16); "He that believeth on him is not condemned" (John 3:18); "He that believeth on the Son hath everlasting life" (John 3:36).
+
+**Cross-References:** "For by grace are ye saved through faith; and that not of yourselves: it is the gift of God:" (Ephesians 2:8); "But to him that worketh not, but believeth on him that justifieth the ungodly, his faith is counted for righteousness." (Romans 4:5); "Believe on the Lord Jesus Christ, and thou shalt be saved" (Acts 16:31)
+
+**Errors Refuted:** (1) *Faith plus works.* The Council of Trent's decree on justification (1547) teaches that justification is increased by good works and can be lost by mortal sin; its holders would say this honours God's grace working in us. The Reformed churches reply that works are the fruit of new life and never its ground: John 3 makes believing the one condition of having life (John 3:16, 36). (2) *Faith as mere assent.* Some treat faith as agreeing that facts are true. John's phrase is believing 'in him', *eis*, trust that goes out and rests on a person, and it 'receiveth his testimony' (John 3:33). (3) *Universalism.* Some hold that all will finally have life whether they believe or not. John 3 sets two outcomes side by side, 'perish' or 'everlasting life', and says the one who believes not 'shall not see life' (John 3:36).
+
+**Pastoral Fruit:** Simplicity in the gospel we speak. Freedom from the treadmill of earning. And confidence to offer Christ to anyone, since 'whosoever' leaves no one out who comes.
+
+### Eschatology · The Verdict of the Last Day Given Now
+**Proposition:** The judgment of the last day is anticipated in the present. The believer already has everlasting life and is not condemned; the unbeliever is condemned already, and the wrath of God remains on him. The final resurrection and judgment will reveal and confirm this verdict, not reverse it.
+
+**Textual Anchor:** "he that believeth not is condemned already" (John 3:18), the perfect *kekritai* (G2919, John 3:18, V-RPI-3S); "He that believeth on the Son hath everlasting life: and he that believeth not the Son shall not see life; but the wrath of God abideth on him." (John 3:36)
+
+**Cross-References:** "He that heareth my word, and believeth on him that sent me, hath everlasting life, and shall not come into condemnation; but is passed from death unto life." (John 5:24); "There is therefore now no condemnation to them which are in Christ Jesus" (Romans 8:1); "which delivered us from the wrath to come." (1 Thessalonians 1:10)
+
+**Errors Refuted:** (1) *Eternal life begins only after death.* Many believers think of eternal life as a future reward only. John 3:36 says the believer 'hath' it now. (2) *Everything is decided only at the end, so no one can know.* Some traditions teach that assurance of final salvation is not ordinarily possible in this life. John 3:18 gives the believer a present verdict. (3) *Only a future judgment, nothing now.* Others, including some existentialist readings of John associated with Rudolf Bultmann (verify), keep the present judgment and drop the future one. John keeps both: John 5:24 and John 5:28–29 stand side by side.
+
+**Pastoral Fruit:** Assurance for the believer, who need not live on probation. Seriousness in evangelism, because unbelief is not a waiting room but a verdict already standing. And hope, because today the sentence can still be lifted.
+
+### Christian Walk · He Must Increase, but I Must Decrease
+**Proposition:** The servant of Christ receives every gift and every field of service from heaven, rejoices in Christ's honour above his own, and willingly decreases so that Christ may increase. Rivalry in ministry is unbelief in the giver; joy in the Bridegroom is its cure.
+
+**Textual Anchor:** "A man can receive nothing, except it be given him from heaven." (John 3:27); the friend of the bridegroom 'rejoiceth greatly because of the bridegroom's voice' (John 3:29); "He must increase, but I must decrease." (John 3:30)
+
+**Cross-References:** "For who maketh thee to differ from another? and what hast thou that thou didst not receive?" (1 Corinthians 4:7); "For we preach not ourselves, but Christ Jesus the Lord; and ourselves your servants for Jesus' sake." (2 Corinthians 4:5); "But God forbid that I should glory, save in the cross of our Lord Jesus Christ" (Galatians 6:14)
+
+**Errors Refuted:** (1) *Ministry success proves God's favour, and decline proves his displeasure.* Church-growth thinking can slide into this, and its holders mean well: fruit matters. John's ministry was shrinking by God's plan, and he called it joy fulfilled. (2) *Humility means self-hatred.* John does not despise himself; he knows who he is ('sent before him', John 3:28) and who he is not. (3) *Loyalty to a leader is loyalty to Christ.* John's disciples defended their master's following. John himself sent them to the Bridegroom.
+
+**Pastoral Fruit:** Freedom from comparison. Gladness when others are used. And leaders who point past themselves, and step aside when the time comes.
+
+### Assumed Here
+- **Ecclesiology:** The chapter assumes a gathered company of disciples who baptize under Jesus' authority (John 3:22; John 4:2), and its bride-and-bridegroom picture (John 3:29) points to the church as Christ's bride, but it does not teach the church's nature or order. That is taught plainly in Matthew 28:19–20, Ephesians 5:25–27, and Revelation 19:7–8.
+
+## ⚖️ The Council's Hard Questions
+### ❓ Question 1 · Whom Does God So Love, and What Does Whosoever Mean
+**Moderator:** John 3:16 is the best-known verse in the Bible, and it is argued over as much as it is loved. Does 'the world' mean every person, and does God's love here intend the salvation of every person? And how does 'whosoever' fit with teaching elsewhere in John about the Father giving and drawing?
+
+**Philologist:** Begin with the words. *Kosmos* (G2889, John 3:16) in John is usually humanity in its rebellion: the world that "knew him not" (John 1:10) and "loved darkness" (John 3:19). The stress is on the quality of what God loved, not first on its number. And 'whosoever believeth' is, in the Greek, 'every one who believes': *pas* (G3956, John 3:16) with the present participle *pisteuōn* (G4100, John 3:16, V-PAP-NSM). It is universal in its offer to every believer, and it says nothing either way about who will believe.
+
+**Theologian:** The Reformed tradition reads John 3:16 as a sincere, universal offer grounded in real love: God loves the world, commands all to believe, and promises life to every one who does. Scripture also teaches that God has no pleasure in the death of the wicked: "As I live, saith the Lord GOD, I have no pleasure in the death of the wicked; but that the wicked turn from his way and live" (Ezekiel 33:11). But John also teaches that "No man can come to me, except the Father which hath sent me draw him" (John 6:44), and Jesus says the good shepherd lays down his life "for the sheep" (John 10:15). So the Reformed hold together God's love for the world shown in the gift and offer of the Son, and his particular, effectual love that brings the elect to faith.
+
+**Church Historian:** And it is fair to say that the Arminian and Wesleyan traditions, and much of the evangelical world, read the verse differently. They hold that God's love here intends the salvation of each person, that Christ died for all alike, and that prevenient grace enables every hearer to believe or refuse. They point to "Who will have all men to be saved" (1 Timothy 2:4), to the Lord "not willing that any should perish" (2 Peter 3:9), and to Christ as the propitiation "for the sins of the whole world" (1 John 2:2). Lutheran theology has its own answer, holding both God's universal grace and unconditional election without resolving the tension. These are not careless readers; they are guarding the sincerity of the offer.
+
+**Theologian:** And the Reformed would say that the sincerity of the offer is not at stake: every one who believes will have life, without exception, and no one who comes will be cast out (John 6:37). The difference is whether God's love in John 3:16 is a purpose to save every individual that can fail, or a love for the world that sends the Son and saves all who believe, where believing is itself God's gift (John 1:12–13; Ephesians 2:8).
+
+**Pastor:** Whatever we conclude, a pastor must be able to look anyone in the eye and say: God so loved the world that he gave his Son, and if you believe on him you will not perish. Both traditions preach that. If our debate ever makes us hesitate to say it, we have misused the verse.
+
+**Resolution:** John 3:16 teaches that God's love for a rebellious world is shown in the gift of his only begotten Son, and that every one who believes on him, without exception, will have everlasting life. Christians differ on whether this love is an equal saving intent toward each person (Arminian and Wesleyan) or a love for the world that stands alongside a particular, effectual love for the elect (Reformed). This study holds the Reformed reading, because John himself sets the Father's giving and drawing beside the 'whosoever' (John 6:37, 44), but the verse is to be preached to everyone, freely and sincerely, by all (Isaiah 45:22).
+
+### ❓ Question 2 · Does New Birth Come Before Faith, or Faith Before New Birth
+**Moderator:** In John 3 Jesus speaks first of new birth (John 3:3–8) and then of believing (John 3:15–18). John 1:12 says believers are given power to become sons of God. Which comes first: does the Spirit give new life so that we believe, or do we believe and then receive new life?
+
+**Philologist:** The grammar will not settle it alone, but it points somewhere. In 1 John 5:1, 'believeth' is a present participle and 'is born', *gegennētai* (G1080, 1 John 5:1, V-RPI-3S), is perfect: "Whosoever believeth that Jesus is the Christ is born of God" (1 John 5:1). The one who is now believing has been born of God. That is at least consistent with birth as the source of faith. Those who disagree reply, fairly, that a perfect can describe a present state without fixing the order in which it began.
+
+**Theologian:** The Reformed argue from the whole shape of John 3. Birth is passive: no one takes part in his own conception. Flesh can only give birth to flesh (John 3:6), and those who love darkness do not come to the light (John 3:20). If that is our condition, faith must be the first breath of a life God has already given. John 1:13 says the children of God were born "not of blood, nor of the will of the flesh, nor of the will of man, but of God" (John 1:13). The Westminster Confession (chapter 10, verify the section) and the Canons of Dort teach this order: regeneration, and then faith as its fruit. Logically, not necessarily in time: the two may happen in the same moment, as a baby's birth and first cry do.
+
+**Church Historian:** The Arminian and Wesleyan traditions answer that John 1:12 puts receiving him before becoming sons: "But as many as received him, to them gave he power to become the sons of God, even to them that believe on his name" (John 1:12). They hold that prevenient grace, given to all, enables the sinner to believe, and that God regenerates the one who believes. They would stress that John 3 commands belief and condemns unbelief (John 3:18), which assumes that hearers are responsible to respond.
+
+**Literary Scholar:** Notice how John orders the chapter itself. Nicodemus asks 'How?' (John 3:9), and Jesus does not answer with a procedure. He points to the Son lifted up (John 3:14–15). The new birth is described from God's side; faith is called for from ours. John never tells Nicodemus to regenerate himself, and he never tells him to wait passively either. He tells him to look.
+
+**Teacher:** For our group, the practical answer matters more than the order. A participant who asks, 'How do I get born again?' should be told what Jesus told Nicodemus: look to the Son lifted up and believe on him. If they believe, the Spirit has been at work; if they cannot yet, they can ask him to give what only he can give.
+
+**Resolution:** Scripture teaches both that the new birth is God's sovereign work (John 3:5–8; John 1:13) and that believing on the Son is the hearer's real responsibility (John 3:18, 36). The Reformed hold that regeneration logically precedes and produces faith (1 John 5:1); Arminian and Wesleyan Christians hold that grace enables faith and regeneration follows it (John 1:12). Both call every hearer to believe now. This study holds the Reformed order, because John 3 describes birth as something done to us by the Spirit and faith as its fruit, while it keeps the call to look and live at the centre (John 3:14–15).
+
+### ❓ Question 3 · Did Nicodemus Come to the Light
+**Moderator:** Nicodemus's last words in John 3 are 'How can these things be?' (John 3:9). John never tells us in so many words that he believed. Was he born again, and what should we make of secret disciples?
+
+**Historian:** Follow him through the Gospel. In John 7 the chief priests and Pharisees are furious that the officers did not arrest Jesus, and Nicodemus, 'being one of them', asks: "Doth our law judge any man, before it hear him, and know what he doeth?" (John 7:51) They answer with contempt: "Art thou also of Galilee?" (John 7:52) At the burial he comes with Joseph of Arimathaea and "brought a mixture of myrrh and aloes, about an hundred pound weight" (John 19:39). That was a vast amount, a burial fit for a king, given publicly at the moment when Jesus' followers had scattered.
+
+**Literary Scholar:** And John frames each appearance with the night. In John 7:50 and John 19:39 he reminds us that this was the man who came 'by night'. That reminder works like a signpost: the man who came by night is now seen by day. In a Gospel where people are divided by whether they come to the light (John 3:19–21), Nicodemus's path runs from darkness toward light.
+
+**Church Historian:** Some readers are less hopeful. They set Nicodemus beside the rulers of John 12:42–43, who believed but did not confess him "lest they should be put out of the synagogue" (John 12:42), "For they loved the praise of men more than the praise of God." (John 12:43) Joseph of Arimathaea is called a disciple "but secretly for fear of the Jews" (John 19:38). On this reading, Nicodemus's lavish spices honour a dead teacher rather than a risen Lord. Later Christian tradition, however, often counted him a believer, and some legends made him a martyr (verify); those legends are not Scripture.
+
+**Pastor:** Whatever we conclude, John is asking the reader the question Jesus asked Nicodemus. I would not tell our group he was a coward, and I would not tell them he was a hero. I would tell them he was a man on the road from night to day, and ask them where they are on that road.
+
+**Resolution:** John does not state that Nicodemus believed, and readers differ. The text shows him moving: from a night visit (John 3:2), to a public request for a fair hearing (John 7:51), to open and costly devotion at the burial (John 19:39), when being associated with Jesus was most dangerous. That movement fits John 3:21, the one who 'cometh to the light'. The warning of John 12:42–43 stands for secret believers in every age, and the hope of Nicodemus's story stands too: the Spirit who blows where he wills can bring a cautious, learned, respected man into the light.
+
+### 🔦 The Life & Light Audit
+**Pastor:** If a hearer obeyed this lesson exactly, they would stop leaning on their record and look to the Son lifted up, in plain prayer, tonight. One religious-but-lifeless relative or friend would be asked, gently, what John 3:3 means to them, and one person who thinks they are too far gone would receive John 3:16 in a handwritten note. The dark place lit would be one hidden deed, confessed to God by name, and where someone has been wronged, put right openly.
+
+**Theologian:** The practices keep source discipline. None asks the hearer to make themselves born again, to generate faith by effort, or to produce light of their own. The Inward practices are all acts of looking and confessing, the posture of the bitten Israelite (Numbers 21:9) and of the one who 'cometh to the light' (John 3:21). The Outward practices carry a verse and point to the Son; the hearer is Moses lifting up what God provided, and the Baptist stepping aside.
+
+**Teacher:** A Level 1 participant can do the Inward Life practice tonight: read two short passages and pray for two minutes. The Outward practices name the kind of person to reach (someone raised in church without life in it, someone who thinks they are too far gone, someone ashamed who expects condemnation) and leave a blank for the name, so a newcomer knows exactly what to do.
+
+**Fix:** The Audit checked three risks and found each already handled in the unit, so no further change was needed. The Outward Light practices ask the hearer to put right their own wrong and to read John 3:17 with an ashamed person, never to expose someone else's sin. The Gather naming round reads only the second row of the Light Planner, never the private first row. And A Line to Say addresses both the respectable and the despairing, since John 3 speaks to both.
+
+## 🗝️ Leader's Guide
+### ⏱️ Session Plan
+| Segment | Minutes | What happens |
+|---|---|---|
+| Open: prayer and warm-up | 5 | Pray Psalm 119:18 together; two or three share answers to the warm-up about starting over. |
+| Setting the Scene and Read & Mark | 12 | The leader reads Setting the Scene aloud (2 minutes); three readers read John 3 aloud (verses 1–15, 16–21, 22–36) while everyone marks their text. |
+| Observe, Mind the Language, Word Study | 8 | Work through Q1–Q6 quickly as a group; fill in the Mind the Language blanks together; point to one Word Study row, *anōthen*, and show that John 3:31 uses the same word for 'from above'. |
+| Search the Scriptures and Interpret | 12 | Read Numbers 21:6–9 and Ezekiel 36:25–27 aloud; discuss Q8–Q10; take the View A / View B panel and Q11. |
+| Group questions 1 to 3 | 20 | Gather questions 1 to 3 (7, 7, and 6 minutes). The Case Study, Modern Example, Voices, Apply, and Level 4 pages are assigned for home. |
+| Naming round | 10 | Gather question 4: each member reads the name on their Life Planner and the dark place on the second row of their Light Planner; one-sentence prayers for each. |
+| Memory verse and closing prayer | 8 | Say John 3:16 together twice, the second time slowly, phrase by phrase; the closing prayer focus; announce John 4. |
+| **Total** | **75** | |
+
+### ✅ Answer Key
+**Q1.** He was 'of the Pharisees', his name was Nicodemus, and he was 'a ruler of the Jews' (John 3:1). He came to Jesus 'by night' (John 3:2).
+
+**Q2.** He says, "we know that thou art a teacher come from God" (John 3:2). His evidence is the signs: "for no man can do these miracles that thou doest, except God be with him" (John 3:2).
+
+**Q3.** "Except a man be born again, he cannot see the kingdom of God." (John 3:3) "Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God." (John 3:5) 'Born again' is explained as 'born of water and of the Spirit', and 'see' becomes 'enter'.
+
+**Q4.** He compares 'every one that is born of the Spirit' to the wind. The wind blows where it wills, you hear its sound, and you cannot tell where it comes from or where it goes (John 3:8).
+
+**Q5.** Moses lifted up the serpent in the wilderness, and in the same way 'must the Son of man be lifted up', so that whoever believes in him should not perish but have eternal life (John 3:14–15).
+
+**Q6.** They reported that the one John had borne witness to was baptizing, "and all men come to him" (John 3:26). John's first words are "A man can receive nothing, except it be given him from heaven" (John 3:27), and his last are "He must increase, but I must decrease." (John 3:30)
+
+**Q7.** God must do the inward work: cleanse us, give a new heart, put his Spirit within us, and write his law there (Ezekiel 36:25–27; Jeremiah 31:33), and he does it through his word (1 Peter 1:23). Our part is to look and believe, as the bitten Israelites looked (Numbers 21:8–9): "Look unto me, and be ye saved, all the ends of the earth" (Isaiah 45:22). The passages together say that salvation is God's work from start to finish, received by faith.
+
+**Q8.** The crowds in John 2:23–25 believed because of signs, and Jesus did not trust himself to them, because 'he knew what was in man' (John 2:25). Nicodemus reasons from the same signs (John 3:2). Jesus does not need more admirers; Nicodemus needs a new life, and without it he cannot even see the kingdom he is waiting for (John 3:3).
+
+**Q9.** The people had spoken against God and were bitten and dying under his judgment; they confessed, "We have sinned" (Numbers 21:7). God provided a serpent of brass on a pole, and a dying person only had to look at it to live (Numbers 21:8–9). The lifted-up Son saves in the same way: God provides the remedy, it is lifted up where all can see it, and it is received by believing, not by effort (John 3:14–15).
+
+**Q10.** The Son came to save, but he came into a world already under condemnation because of sin. Those who will not believe stay under the verdict that already stands, "because he hath not believed in the name of the only begotten Son of God" (John 3:18), and their refusal shows that they love darkness (John 3:19).
+
+**Q11.** Model answer, not the only answer: View A fits the text best. Jesus expects Nicodemus to know this already (John 3:10), which points to an Old Testament promise such as Ezekiel 36:25–27; one preposition governs both water and Spirit (John 3:5); and verses 6 and 8 speak only of the Spirit. View B's texts are real (Acts 2:38; Titus 3:5), and baptism is the sign of this cleansing, but Christian baptism had not yet been given when Jesus spoke to Nicodemus. Let members who hold View B state it at its strongest.
+
+**Q12.** Saul had to stop trusting his own righteousness, his heritage, and his zeal, and count them as loss (Philippians 3:7–9). His story answers 'How can these things be?' (John 3:9): not by self-improvement but by God acting from above, suddenly and freely, like the wind (John 3:8).
+
+**Q13.** Answers will vary: church attendance, a family's faith, a past decision, good works, Bible knowledge. To 'look' is to turn from all of these and trust Christ alone as the one lifted up for us (John 3:14–15).
+
+**Q14.** Because Scripture says the new birth is of God, not of the will of man (John 1:13; John 3:8). It humbles us: we contributed nothing. It gives hope: the Spirit can blow into any heart, however closed, as the breath came into the dry bones (Ezekiel 37:9). So we pray and speak the word, and we do not give up.
+
+**Q15.** To believe in the Son is to trust him personally as the one God gave and lifted up, and to receive his testimony as true (John 3:16, 33). 'Whosoever' includes any person of any background, respectable or ruined. It leaves out no one who believes, but it leaves out every other ground of trust, and it does not include the one who refuses to believe (John 3:18).
+
+**Q16.** Model answer: God measures his love by giving his only begotten Son, not by how lovable we are. On days we feel unlovable, the cross is the fixed proof: "He that spared not his own Son, but delivered him up for us all, how shall he not with him also freely give us all things?" (Romans 8:32)
+
+**Q17.** Answers will vary: a coworker's promotion, another church's growth, a sibling's success, another member's gift. Loving Christ more than our place means rejoicing that he is honoured, whoever he uses, because everything we have was given from heaven (John 3:27, 29).
+
+**Q18.** Model answers: telling one friend or family member that I am following Jesus; asking my question aloud in the group rather than keeping it private; asking the pastor about baptism; praying aloud in the group for the first time. Humbling ourselves means admitting to God first that we have been afraid of being seen (John 3:21).
+
+**Q19.** No one contributes to his own birth. Jesus chose a picture that leaves no room for boasting: the new life comes wholly from God (John 1:13; John 3:6). That humbles us, because we bring nothing but our need, and it makes Christ glorious, because all the credit belongs to God who gives life through his Son (John 3:16).
+
+**Q20.** Model answers: a churchgoing relative for whom faith is only habit; a religious friend who admires Jesus as a good teacher; a colleague who is moral and kind but has never thought they needed to be born again (John 3:3).
+
+**Q21.** Model answers: the thief may have stolen the knowledge that they need anything, or the hope that anyone can change, or the joy that comes from the Bridegroom's voice. The thief comes "to steal, and to kill, and to destroy" (John 10:10).
+
+**Q22.** Christ gives everlasting life: not perishing, but having the life of God now and forever (John 3:15–16). It is enough for both because the cure depends on the one lifted up, not on the patient: the respectable need it as much as the ruined, and the ruined can receive it as freely as the respectable.
+
+**Q23.** Model answers: a religious parent I assume is fine; a friend in addiction I have given up on; a neighbour I think would never be interested. 'Whosoever' means we have no right to decide in advance who is beyond it (John 3:16).
+
+**Q24.** Model answers: a habit, a resentment, a lie, a secret spending pattern, a private fear. We are afraid it would show us as we are. But the one who shines the light came to save, and "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness." (1 John 1:9)
+
+**Q25.** Model answers: praying honestly about what I really feel; letting a trusted friend know my struggles; no longer hiding my faith at work; making things right with someone. When good comes out into the light, it is shown to be God's work, not ours (John 3:21).
+
+**Q26.** Model answer: a friend ashamed of a past abortion, prison, divorce, or addiction, who expects the church to reject them. Show them John 3:17, listen first, and let them see that the Son came to save, not to condemn. Jesus was known as the friend who 'receiveth sinners' (Luke 15:2).
+
+### 📖 Glossary
+| KJV word | Verse | Meaning |
+|---|---|---|
+| Rabbi | John 3:2 | my teacher; a respectful title for a teacher of the law |
+| verily | John 3:3 | truly; doubled, it introduces a solemn statement |
+| except | John 3:3 | unless |
+| marvel | John 3:7 | be astonished, wonder |
+| listeth | John 3:8 | wishes, pleases, wills |
+| thereof | John 3:8 | of it |
+| whence | John 3:8 | from where |
+| whither | John 3:8 | to where |
+| master | John 3:10 | teacher |
+| testify | John 3:11 | bear witness, give evidence as one who has seen |
+| only begotten | John 3:16 | only, one of a kind; the unique Son of the Father |
+| condemnation | John 3:19 | judgment, the verdict against someone |
+| reproved | John 3:20 | exposed, shown up as wrong, convicted |
+| manifest | John 3:21 | shown openly |
+| wrought | John 3:21 | done, worked (the old past tense of 'work') |
+| tarried | John 3:22 | stayed, remained |
+| purifying | John 3:25 | ceremonial washing, cleansing |
+| barest | John 3:26 | bore (you bore witness) |
+| set to his seal | John 3:33 | put his stamp of approval on it; certified it as true |
+| by measure | John 3:34 | in a limited amount, portioned out |
+| abideth | John 3:36 | remains, stays |
+
+### 🗺️ Life & Light Leader's Map
+**Worked Life Planner Row:** *Who:* my uncle Frank, who has been an usher at his church for thirty years and calls himself a good Christian, but who told me last Christmas that he has never really thought about Jesus much. *What the thief has stolen:* the knowledge that he needs anything; his religion has become a substitute for life. *What Christ gives instead:* everlasting life by looking to the Son lifted up (John 3:14–16). *What I will do this week:* call him on Saturday, ask about his church, and then ask what he makes of Jesus telling a religious leader 'Ye must be born again' (John 3:7), listening more than I talk. *Done?* A tick, and a note of what he said.
+
+**Worked Light Planner Row:** *Where it is dark:* my own heart: I have been telling my small group that my marriage is fine, and it is not. *What is hidden there:* pride, and fear of being seen to fail. *What light Christ shines:* he came not to condemn but to save (John 3:17), and the one who does truth comes to the light (John 3:21). *How I carry it:* confess my pride to the Lord tonight, and on Thursday ask one trusted friend in the group to pray with me about my marriage. This first row stays private; in the naming round members read their second row.
+
+**When Someone Has No One to Name:** Do not accept 'no one' too quickly, and do not shame the person either. John 3 gives two kinds of people to think of: the Nicodemus who seems fine (religious, respectable, comfortable) and the one who thinks they are too far gone. Walk through their week with them and ask, 'Who in your family, workplace, or church seems to have religion but no life? Who seems to think God could never want them?' Most people can name one of each. If they still cannot, suggest they ask the Lord for one name this week (Matthew 9:38).
+
+**When Someone Points the Light at Others:** John 3:19–20 can be turned into a weapon: 'those people love darkness'. When a member uses it on a family member, a coworker, or the culture, bring them gently back to the first row of their Light Planner. Remind the group that in John 3 the Son was sent to save the world, not to condemn it (John 3:17), and that the person who comes to the light is the one who brings his own deeds into it (John 3:21). The Love Guard is printed in the lesson for this reason. If there is a real concern about another person's sin, point to the private, humble way of Matthew 18:15, after the beam has come out of their own eye (Matthew 7:5).
+
+### 🐑 Shepherding Notes
+This chapter touches several tender places. Handle them with care.
+
+- **Assurance.** Members raised in church may leave this lesson afraid they have never been born again, especially if they cannot name a date. Do not stir up doubt for its own sake. Point them where Jesus pointed Nicodemus: to the Son lifted up. The question is not 'can I remember my birth?' but 'am I looking to Christ now?' The one who believes on him 'is not condemned' (John 3:18), and "him that cometh to me I will in no wise cast out" (John 6:37).
+- **Loved ones who do not believe.** John 3:36 speaks of the wrath of God abiding on the one who believes not. For members who have lost an unbelieving parent, spouse, or child, this can be crushing. Do not speculate about anyone's eternal state; we do not know what passed between a dying person and God. Grieve with them, and turn their grief into prayer for the living.
+- **Shame.** John 3:19–20 speaks of deeds done in the dark. Some members carry secrets: abortion, abuse suffered or committed, addiction, betrayal. The lesson invites them to come to the light, but coming to the light happens first before God, not before the group. If someone discloses something serious to you afterwards, receive it quietly, pray with them, and, where others are at risk or the law requires it, get appropriate help.
+- **Those who feel too far gone.** Some think they have done too much for God to love them. Linger on 'whosoever' and on 'not to condemn' (John 3:16–17).
+- **Leaders and servers.** John 3:26–30 can sting anyone whose ministry has shrunk, who has been replaced, or who envies another's gifts. Speak of the Baptist's joy, not as a rebuke but as a freedom offered.
+- **The Light Planner's first row.** It is private: never ask anyone to read it aloud, and say so at the start of the naming round. If someone chooses to share, receive it quietly, pray, and keep it in the group.
+
+### 🎯 Teaching Angles
+**For a Tier 1 Group:** Tell the story of the snakes in the wilderness first (Numbers 21:4–9), then Nicodemus's night visit. Bring a picture of a caterpillar and a butterfly, or a baby photo, to show that birth is something that happens to us. Ask: What did Jesus say Nicodemus needed? What did the people in the wilderness have to do to live? What does God so loving the world mean for me? Use the Tier 1 section, and end by saying John 3:16 together.
+
+**For a Tier 2 Group:** Trace two lines through the chapter. The line of 'above' and 'earth': born from above (John 3:3), heavenly and earthly things (John 3:12), the one who came down from heaven (John 3:13), the one from above who is above all (John 3:31). The line of light and darkness: Nicodemus by night (John 3:2), the light come into the world (John 3:19–21), and Nicodemus's later appearances (John 7:50; John 19:39). Then show how the Baptist's testimony (John 3:27–36) ties the two lines together in the Son.
+
+**Tough Question 1:** *Do I need a dramatic experience, or a date, to know I am born again?* No. Jesus compares the Spirit's work to the wind: you cannot see it, but you can hear its sound (John 3:8). Some people remember a day; many who grew up in believing homes do not. The evidence John gives is present faith in the Son and coming to the light (John 3:21; 1 John 5:1). Ask 'am I trusting Christ now?', not 'can I remember when I started?'
+
+**Tough Question 2:** *What about people who never hear of Jesus? Are they condemned for not believing?* John 3:18 speaks of those who have heard and not believed. Scripture also teaches that all people are already under condemnation for sin against the light they have (Romans 1:20; Romans 2:14–15), which is why the Son was sent to save (John 3:17). The answer the chapter presses on us is not speculation but mission: "how shall they hear without a preacher?" (Romans 10:14). Faithful Christians differ on some details here; do not claim more than Scripture says.
+
+**Tough Question 3:** *Is baptism necessary for salvation? Does John 3:5 mean the unbaptized cannot enter the kingdom?* Christians differ (see the Debate Corner). Baptism is commanded by Christ and is not optional for a believer who can receive it (Matthew 28:19). But the thief on the cross was promised paradise without it (Luke 23:43), and the water of John 3:5 is best read against Ezekiel 36:25–27, the cleansing the Spirit gives. We are saved by the Son lifted up, received by faith (John 3:14–15), and baptism is the sign and seal of that washing, not its source.
+
+<!-- counts
+verily, verily | NT | 25
+kingdom of God | John | 2
+light | John 3 | 5
+G509 | NT | 13
+born | John 3 | 8
+-->
