@@ -1,0 +1,60 @@
+{
+  "scores": [
+    {
+      "line": "R1",
+      "score": 5,
+      "evidence": "John does not say which feast... readers have suggested Passover, Pentecost, Tabernacles, Trumpets, and Purim; none can be proved",
+      "fix": "None needed — contested points (the feast, the imperative/indicative of 'search,' the sabbath charge, John 5:3b-4) are consistently marked as contested with fair alternatives, and no errors of person, place, time, or feast were found."
+    },
+    {
+      "line": "R2",
+      "score": 5,
+      "evidence": "Remove Christ and John 5 becomes advice for the helpless, which is no help at all; keep him at the centre and it becomes life for the dead.",
+      "fix": "None needed — the Gospel Foundation is drawn from what Jesus said/did in this chapter, Tier 4 traces every problem and truth to him, and practices (e.g., 'the Son quickens whom he will, and the hearer's part is to be the man') consistently preserve source discipline."
+    },
+    {
+      "line": "R3",
+      "score": 5,
+      "evidence": "Tier 1: 'He just spoke, and the man was well... not because we finally become strong enough, but because he is strong enough' vs Tier 3: 'Augustine... and Turretin... argue this way; many modern Reformed and evangelical scholars follow them.'",
+      "fix": "None needed — the four tiers are clearly differentiated in register and depth, and the ladder questions move from simple recall (Q1-Q7) through interpretation, contested views, application, to sending the reader outward (Q21-Q27)."
+    },
+    {
+      "line": "R4",
+      "score": 5,
+      "evidence": "Each Walkthrough block keeps 'Says:' (quotation), 'Means:' (OT background, word studies, narrative flow), and 'Asks:' distinct throughout, e.g. John 5:17-18 and John 5:39-40 blocks.",
+      "fix": "None needed — the three-part structure is sustained with no filler across all sections of the chapter."
+    },
+    {
+      "line": "R5",
+      "score": 5,
+      "evidence": "'Its holders point to texts where the Son receives from the Father or says the Father is greater (John 14:28)... they want to protect human responsibility' (Pelagianism entry).",
+      "fix": "None needed — propositions are anchored in the chapter's own words, errors are stated as their holders would recognize them and answered from the text, and categories not taught (Pneumatology, Ecclesiology) are explicitly marked as assumed rather than forced."
+    },
+    {
+      "line": "R6",
+      "score": 5,
+      "evidence": "'Augustine, Tractates on the Gospel of John (Tractates 17-23, verify): reads the pool allegorically... (verify the particulars)' — sources named and summarized, doubtful attributions flagged.",
+      "fix": "None needed — historical, source, and word-study claims are consistently hedged with '(verify)' where uncertain, other positions (Arian, Tridentine, Wesleyan, pluralist) are stated fairly, and the Reformed synthesis on John 5:26 is argued from the text rather than assumed."
+    },
+    {
+      "line": "R7",
+      "score": 5,
+      "evidence": "'In whose life could you be the man the sick man never had, not carrying them to a pool, but bringing them where they can hear the Son's voice' with a concrete daily practice and a scripted line to say.",
+      "fix": "None needed — the Theft, Source, Channel, and Lamp are drawn from the chapter's own terms, the Abundance and Love Guards visibly shape the practices, and the Life & Light Audit names real risks (misuse against 'Pharisees,' wounding the chronically ill) with fixes already built into the unit."
+    },
+    {
+      "line": "R8",
+      "score": 5,
+      "evidence": "'When a member names another church's or another person's Pharisaism as their dark place, bring them gently back to the first row of their Light Planner' (Leader's Map hard-case coaching).",
+      "fix": "None needed — the session plan totals exactly 75 minutes, the answer key gives labeled model answers with verse support, and both named hard cases are coached with specific leader language."
+    },
+    {
+      "line": "R9",
+      "score": 5,
+      "evidence": "'it states in small what John says his whole book is for: that believing we might have life through his name (John 20:31)' — memory verse commentary ties the chapter to the Gospel's stated purpose.",
+      "fix": "None needed — the unit engages signs, witness/courtroom motif, the 'hour,' honour/glory, and the narrator's voice (John 5:18) as distinctly Johannine, and situates the chapter within John 20:31."
+    }
+  ],
+  "verdict": "PASS",
+  "first_fix": ""
+}

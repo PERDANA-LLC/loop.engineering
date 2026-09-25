@@ -10,12 +10,15 @@ It plays unit 02 (John 2) from the fixtures in tests/fixtures/, so everything af
   MOCK=cap         a different flaw every time                               -> CAP (exit 2)
   MOCK=tamper      edits kjv/errata.tsv, a protected file                    -> DANGER (exit 5)
   MOCK=judge-fail  the good draft, but the mock judge never passes it        -> STUCK (exit 3)
+  MOCK=limit       part of a draft, then Claude's usage limit (SF-15)          -> HUMAN (exit 4), paused
   (MOCK=stopfile is handled by run.sh: it creates .loop-stop first           -> HUMAN (exit 4))
 """
 import datetime
 import os
 import shutil
 import sys
+
+import usage_limit
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -50,6 +53,10 @@ def main():
         with open(os.path.join(ROOT, "kjv", "errata.tsv"), "a", encoding="utf-8") as f:
             f.write("John\t3\t16\tFor God so loved the world.\t(mock) the maker tried to change the text\n")
         did = "edited kjv/errata.tsv"
+    elif mock == "limit":
+        shutil.copy(flawed, target)
+        usage_limit.stop("maker", unit, "(mock) You've hit your session limit · resets 4:10am (UTC)")
+        did = "wrote part of a draft, then hit Claude's usage limit"
     elif mock == "judge-fail":
         shutil.copy(good, target)
         did = "wrote a draft the mock judge rejects"

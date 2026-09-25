@@ -16,7 +16,9 @@ import os
 import subprocess
 import sys
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+import usage_limit
+
+ROOT =os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LINES = [f"R{n}" for n in range(1, 10)]
 MUST_BE_FIVE = {"R1", "R6"}
 
@@ -65,6 +67,9 @@ def ask_claude(unit, prompt):
         result = json.loads(raw)
     except ValueError:
         return None, {"error": "the judge's output was not JSON"}
+    limit = usage_limit.hit(result)
+    if limit:
+        usage_limit.stop("judge", unit, limit)
     return result.get("structured_output"), result
 
 

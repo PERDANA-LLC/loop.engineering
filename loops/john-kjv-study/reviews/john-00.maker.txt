@@ -1,0 +1,26 @@
+I wrote the book overview, `study/john-00.md`, as a first draft. The checker passes it on my second run: 240 quotations exact, all 21 chapters covered in the breakdown, 9 doctrine blocks, 14 Greek/Hebrew citations, 21,706 words. The judge hasn't scored it yet, and no one has reviewed its doctrine.
+
+**What's in it**
+- **Lesson Map:** a row for each of the 21 lessons, with its title, Big Idea, core doctrines, objective, memory verse and Life → Light line. I kept `plan.md`'s working titles. Lesson 2 matches the John 2 unit already drafted (same title, memory verse John 2:11).
+- **Workbook pages:**
+  - How to Use This Workbook.
+  - A 21-row Life & Light Ledger. It closes with John 15:5.
+  - Nine Teacher FAQ answers. They cover the six the prompt asks for, plus "the Jews" in John, how John differs from the other three Gospels, and the bracketed passages.
+  - Eight teacher hacks.
+- **The study itself:**
+  - **Setting the Scene:** authorship is marked as tradition throughout, and John is shown beside Matthew, Mark and Luke as a fourth witness, not a rival.
+  - **Chapter-by-chapter breakdown:** one paragraph per chapter, from John 1 to John 21.
+  - **Tier 3 debate:** was John written to bring unbelievers to faith, to strengthen believers, or both? It argues for both, and mentions the manuscript difference in John 20:31.
+  - **Word counts:** every count comes from `tools/concordance.py`, for example "believe" words occur 101 times in John.
+- **Council's hard questions:** who wrote the Gospel; whether John's Jesus is the same as the other Gospels' Jesus; how to teach John 1:18, 5:3–4 and 7:53–8:11 (as the KJV prints them, per D3).
+
+After the checker passed on the unreferenced quotes, I also made a few content corrections of my own. I took out phrases quoted from the creeds. The feeding of the 5,000 is no longer called "the only sign in all four Gospels"; it is the only miracle besides the resurrection that all four record. I removed "sleeping disciples", which is from the other Gospels, not John. And Tier 1 now says the author is who Christians have long *believed* him to be.
+
+**For a person to decide** (also in the `progress.md` log line)
+1. **The memory verses in the Lesson Map.** Chapter units copy these once the map is approved (D9). Two are long for a mixed group: John 18:37 and John 21:17. I chose John 3:16 over 3:3 and John 7:37 over 7:38.
+2. **Sources I wasn't sure of, marked "(verify)":** Irenaeus and Polycarp, Eusebius's book numbers, Augustine's eagle comparison, Calvin's "key" remark, Carson's 1987 article, Brown, Abelard, Dodd and Bultmann, and Augustine on John 8.
+3. **Doctrine calls:** the Reformed readings of John 6:44 and 12:32, and of John 15:6, and how I stated Roman Catholic teaching on John 20:23.
+
+I added one idea to `proposals/prompt-upgrades.md`: a checker rule that keeps each Lesson Map row in step with any chapter unit already written, and a note on memory-verse length.
+
+STATUS: NOT YET · checker passes; waiting on the judge's scores and a person's approval of the Lesson Map (D9) and the doctrine calls

@@ -1,0 +1,36 @@
+I wrote `study/john-09.md` in full, and `tools/check_study.py` passes it on the third of my three allowed runs: 112 quotations exact, all 41 verses printed and expounded, 27 questions answered, 106 Greek and Hebrew citations verified, 30,064 words. The judge and a person still have to review it.
+
+**Main content choices**
+- **Lesson Map:** I kept unit 00's row for lesson 9: the title *Once Blind, Now Seeing*, its Big Idea, the Doing objective, and John 9:25 as the memory verse.
+- **Walkthrough:** 12 blocks. The Tier 2 Walkthrough has no parsing codes, because the judge marked john-08 down for them. The codes appear only in the Tier 3 Original Language Deep Dive.
+- **View A / View B:** the panel is on 'God heareth not sinners' (John 9:31). One view reads it as a sound principle, rightly applied; the other reads it as the man's argument, true only of the unrepentant (Luke 18:13–14).
+- **Debate Corner:** on John 9:3, with three positions: punishment for sin before birth or in a former life, God's purpose in the blindness, and a reading that says Jesus gives no reason at all. The unit argues for God's purpose. Its Pastoral Warning forbids using the verse glibly on people who are suffering.
+- **Council's three questions:**
+  - whether the synagogue ban existed in Jesus' day (Martyn's view that it reflects a later ban, against a local agreement in Jesus' lifetime);
+  - whether the clay and Siloam teach baptism (the unit says the power was in Christ, not the water);
+  - who is really blind (John 9:39–41 set beside John 3:17).
+- **Doctrine:** 8 blocks. Pneumatology is listed under Assumed Here.
+- **Textual notes:** four places where manuscripts differ, explained calmly: John 9:4, 9:8, 9:35 (Son of God or Son of man), and 9:38–39a.
+
+**Checker fixes**
+- The first run found four problems: two English glosses of Greek words and one manuscript variant sat in single quotes, and '3 John 10' needs to be written '3 John 1:10'. I fixed them, and the second run passed.
+- After that I corrected three slips in how I retold the story, then ran the checker a third time. They were: the leaders *doubted* he had been blind (John 9:18); John doesn't mention Jesus' hands; and the man did not see Jesus *first*.
+
+**For a person to check** (the full list is in the `progress.md` line):
+- The (verify)-flagged attributions, including:
+  - Mishnah *Sukkah* 4.9 and *Shabbat* 7.2;
+  - the 2004 excavation of the Siloam pool;
+  - Irenaeus and Augustine's Tractate 44;
+  - Martyn, Carson and Bernier;
+  - the confessions cited: Westminster 5 and 27, Heidelberg Q. 27, Dort III/IV, Belgic 29;
+  - the date of Newton's hymn;
+  - the manuscript witnesses.
+- The doctrine calls:
+  - arguing for God's purpose on John 9:3;
+  - the handling of John 9:31;
+  - reading Siloam as not mainly about baptism;
+  - the Ecclesiology block's line between loving church discipline and casting someone out for confessing Christ.
+
+I added one note to `proposals/prompt-upgrades.md`: manuscript variants in single quotes trip the near-miss check; books with one chapter need chapter-and-verse references; and the tools spell rough breathing inconsistently in transliterations.
+
+STATUS: NOT YET · the checker passes; the judge and a person's doctrine review are still to come.

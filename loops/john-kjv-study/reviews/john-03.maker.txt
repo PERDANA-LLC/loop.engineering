@@ -1,0 +1,30 @@
+John 3 now passes the checker (it took two of my three allowed runs). The judge hasn't scored it yet, and a person still needs to approve its doctrine.
+
+**What I found:** an earlier run was cut off partway through. The file stopped after Tier 4 at a leftover `<!-- NEXT -->` marker. That's why the checker found three sections missing and eight smaller problems.
+
+**What I did**, in `study/john-03.md`:
+- **Kept everything already written.** I changed only the lines the report named.
+- **Doctrine:** nine blocks, one for each line of the lesson's Doctrine in My Own Words list. Ecclesiology is listed under Assumed Here, since the chapter assumes it rather than teaches it.
+- **The Council's Hard Questions:**
+  - Whom does God so love, and what does "whosoever" mean in John 3:16?
+  - Does the new birth come before faith or after it?
+  - Did Nicodemus come to the light?
+  - The Life & Light Audit follows. Its Fix says no further change was needed, because the three risks it checked were already handled.
+- **Leader's Guide:** a 75-minute session plan, answers to all 26 questions (each with a verse), a 21-word glossary, the Leader's Map, Shepherding Notes and Teaching Angles.
+- **The smaller fixes:**
+  - I added the counts block; all five counts already matched the concordance.
+  - I gave the Daniel 7:13, Daniel 7:14 and Titus 3:5 quotations their own references.
+  - I reworded the near-miss paraphrase of John 3:20.
+
+**First checker run:** one new near miss, a paraphrase of John 3:17 in the Leader's Map. I reworded it.
+
+**Second run result:** `PASS · 222 quotations exact · 36/36 verses printed exactly · 36/36 verses expounded in 14 blocks · 26 questions answered · 9 doctrine blocks · 70 Greek/Hebrew citations verified · 25,723 words`
+
+**For a person to review** (listed in full in `progress.md`):
+- **The Reformed calls:** "water and the Spirit" in John 3:5 read as one birth (Debate Corner); the reading of John 3:16 (Council question 1); and the new birth coming before faith (Council question 2).
+- **The other views:** whether the Roman Catholic, Lutheran, Arminian/Wesleyan and Jehovah's Witness positions are stated fairly.
+- **Attributions** marked "(verify)", such as Finney, Abelard, Bultmann and the stories of Nicodemus's martyrdom.
+
+I added one proposal to `proposals/prompt-upgrades.md`: `PROMPT.md` should say how to finish a half-written unit left by an interrupted run, and the checker should flag a leftover marker like `<!-- NEXT -->`.
+
+STATUS: NOT YET · checker passes; waiting on the judge's scores and a person's doctrine review

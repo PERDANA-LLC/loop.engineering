@@ -1,0 +1,16 @@
+I wrote the full John 6 unit at `study/john-06.md`. The checker passes it: all 165 quotations are exact KJV, all 71 verses are printed and explained in 17 walkthrough blocks, all 27 questions are answered, there are 9 doctrine blocks, and all 139 Greek and Hebrew citations check out.
+
+- **Lesson Map row kept:** the title *The Bread of Life*, the Big Idea, and memory verse John 6:35 all come from unit 00.
+- **Participants' View A / View B panel:** whether eating his flesh and drinking his blood (John 6:53–56) means the Lord's Supper, or faith feeding on Christ crucified.
+- **Debate Corner:** the drawing of John 6:44, with three positions: Arminian/Wesleyan (a drawing given to all that can be resisted), Pelagian/Finney (drawing as persuasion), and Reformed (a drawing that always brings the person). It argues the Reformed reading and keeps the open invitation of John 6:37 and 6:40 next to it throughout.
+- **Council's Hard Questions:**
+  - Does John 6:51–58 speak of the Lord's Supper?
+  - How can "I should lose nothing" (John 6:39) stand beside the disciples who went back, and Judas?
+  - Is "It is I" at John 6:20 simply "it's me", or an echo of the divine name?
+- **Textual notes:** John 6:69 and 6:47, where many modern editions differ from the KJV.
+
+The first checker run found five single-quoted KJV phrases that weren't exact: a capital letter, sentence punctuation inside the quote, or "..." inside single quotes. I fixed all five. I also checked a word-study claim about "were filled" (John 6:26) against the lexicon and corrected it, then tightened three other loose phrasings. The last run passed.
+
+Nothing is blocked. A person still needs to check the attributions marked "(verify)" and the doctrine calls; both lists are in the `progress.md` line. I added one suggestion to `proposals/prompt-upgrades.md`: TEMPLATE.md should say that single-quoted Scripture phrases can't change case or use "...", even though double-quoted quotations can.
+
+STATUS: NOT YET · the checker passes; waiting on the judge's scores and a person's review of the doctrine and the "(verify)" attributions

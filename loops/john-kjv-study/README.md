@@ -56,6 +56,7 @@ MOCK=cap ./run.sh           # a new mistake every time: CAP after 4 iterations (
 MOCK=tamper ./run.sh        # the maker edits the KJV text: DANGER (exit 5)
 MOCK=stopfile ./run.sh      # the stop file is present: HUMAN (exit 4)
 MOCK=judge-fail ./run.sh    # the checker passes but the judge never does: STUCK (exit 3)
+MOCK=limit ./run.sh         # Claude's usage limit mid-draft: HUMAN (exit 4), the unit paused, not stuck
 ```
 
 (During a dry run, `loop.sh` announces itself as "real": it's running this loop's mock maker and the real checker, rather than its own built-in mock. `run.sh` says "dry run" on the line before.)
@@ -84,6 +85,8 @@ for i in 1 2 3; do ./run.sh --real || break; done
 ```
 
 **Stop it at any time:** `touch .loop-stop` in this folder (it stops before the next iteration), or Ctrl+C.
+
+**At Claude's usage limit** the maker or the judge is refused. The loop pauses the unit (HUMAN, exit 4) instead of failing it until STUCK, and `./run.sh status` shows when the limit resets. Once it has, `rm .loop-stop` and run the unit again; its draft and checker report are still there.
 
 ---
 

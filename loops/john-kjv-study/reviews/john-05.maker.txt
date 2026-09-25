@@ -1,0 +1,20 @@
+I've written the John 5 unit as `study/john-05.md` (29,175 words). On its third and last run, `tools/check_study.py 05` passed: all 47 verses printed exactly, every verse covered in 15 walkthrough blocks, 163 quotations matching the KJV, 27 questions answered, 8 doctrine blocks and 96 Greek citations verified. The judge and a person still have to review it.
+
+**What's in the unit**
+- **Lesson Map row kept:** the title *The Son Who Gives Life*, the Big Idea as the Golden Thread, and John 5:24 as the memory verse.
+- **Participant panel (View A / View B):** is 'Search the scriptures' (John 5:39) a command, as the KJV prints it, or a statement (*ye search*)? The Greek spelling is the same either way.
+- **Debate Corner:** three readings of 'given to the Son to have life in himself' (John 5:26): the Arian reading, eternal generation, and Calvin's reading that it speaks of Christ as Mediator. It argues for eternal generation, keeps Calvin's point for John 5:27, and ends with the Pastoral Warning.
+- **John 5:3–4:** taught as the KJV prints it. The manuscript question is explained calmly in the Original Language Deep Dive and in the Council's second question.
+- **Council's Hard Questions:** did Jesus break the sabbath; the angel at the pool; and whether John 5:29 means judgment by works, read alongside John 5:24.
+- **Doctrine:** eight blocks, with Pneumatology and Ecclesiology listed under Assumed Here.
+
+**For the person reviewing it**
+- **Attributions marked (verify):** the Bethesda excavations, the Mishnah and rabbinic sabbath rules, the manuscripts for John 5:3–4, Tertullian, the church fathers, Calvin, Turretin, the Westminster Confession, the Council of Trent, and the other commentators. The full list is in the `progress.md` log line.
+- **Doctrine calls:** eternal generation over Calvin's reading of John 5:26; John 5:21 and 5:25 read as effectual calling; and whether the Arian, Oneness, Tridentine, Wesleyan and pluralist views are stated fairly.
+
+**Other changes**
+- I appended both log lines to `progress.md`.
+- The judge had marked john-04 down for one Level 5 answer not framed as a model answer, so I started every Level 4–5 answer here with 'Model answer, not the only answer'.
+- I added one proposal to `proposals/prompt-upgrades.md`: TEMPLATE.md should say that each Greek word in a phrase takes its own citation, since two numbers in one parenthesis fail the checker. It should also fix the model-answer wording so a script can check it.
+
+STATUS: NOT YET · the checker passes; the unit now needs the judge's scores and a person's doctrine review, including the (verify)-flagged attributions and the doctrine calls listed in progress.md

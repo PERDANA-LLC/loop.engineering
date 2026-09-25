@@ -1,0 +1,21 @@
+I wrote the full John 10 unit at `study/john-10.md`. The checker passed it on both runs I used, out of the three allowed: 116 quotations exact, all 42 verses printed and expounded in 13 blocks, 27 questions answered, 8 doctrine blocks, 97 Greek and Hebrew citations verified, 33,132 words. The judge hasn't scored it yet, and no person has reviewed its doctrine.
+
+**What's in it**
+- **Lesson Map row kept:** the title *The Good Shepherd*, the Big Idea, and John 10:11 as the memory verse all come from `study/john-00.md`.
+- **Tier 2 without Strong's numbers:** the judge marked john-09 down for these, so the Walkthrough uses plain English glosses. The Greek apparatus is only in Tier 3.
+- **Contested points, each view stated fairly:**
+  - A View A / View B panel on who the "gods" of Psalm 82:6 are (John 10:34): Israel's judges, or Israel at Sinai.
+  - The Debate Corner compares three views of the security of the sheep (John 10:28–29) and argues for the Reformed one, perseverance of the saints. Its Pastoral Warning covers both dangers: frightening tender believers and giving false comfort to the careless.
+  - The Council's Hard Questions take "I and my Father are one", "Ye are gods", and "not of my sheep".
+- **An honest limit on John 10:30:** the lexicon files it under "union and concord", and the unit says so. The case for more than agreement is argued from the context, and the unit notes Calvin's caution about pressing this verse.
+- **Textual notes:** John 10:8, 10:14, 10:29 and 10:38, plus the KJV's "one fold" where the Greek has two different words.
+
+**After the first passing run** I fixed four narrative slips. The main one: Dedication is not the last feast John names, because Passover follows at John 11:55.
+
+**For the person reviewing the doctrine,** `progress.md` lists every attribution I marked "(verify)" and every doctrine call. The main calls are the Reformed readings of John 10:28–29 and 10:26, and how the unit presents definite atonement alongside the other views.
+
+I added a proposal to `proposals/prompt-upgrades.md` about two gaps in the tools:
+- `tools/greek.py` skips words 4 and 5 of John 10:28 ("eternal life"), so they can't be cited at that verse.
+- `tools/lexicon.py` cuts long entries short, so you can't see which sense it lists a verse under.
+
+STATUS: NOT YET · the checker passes; next come the judge's scores and a person's review of the doctrine and the (verify)-flagged attributions

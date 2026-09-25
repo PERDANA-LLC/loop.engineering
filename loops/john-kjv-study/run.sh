@@ -11,6 +11,7 @@
 #   ./run.sh                  DONE on iteration 2 (exit 0)      MOCK=stuck ./run.sh   STUCK (exit 3)
 #   MOCK=cap ./run.sh         CAP after MAX_ITERS (exit 2)      MOCK=tamper ./run.sh  DANGER (exit 5)
 #   MOCK=stopfile ./run.sh    HUMAN (exit 4)                    MOCK=judge-fail ./run.sh  STUCK on the judge (exit 3)
+#   MOCK=limit ./run.sh       HUMAN at Claude's usage limit: the unit is paused, not stuck (exit 4)
 #
 # Exit codes (loop.sh's): 0 DONE · 1 error · 2 CAP · 3 STUCK · 4 HUMAN · 5 DANGER
 # Settings: loop.env. Stop a running loop from another window: touch .loop-stop
@@ -28,7 +29,7 @@ while [ $# -gt 0 ]; do
     --unit) unit="${2:-}"; shift ;;
     --keep) keep=1 ;;
     status) exec python3 tools/state.py status ;;
-    -h|--help) sed -n '2,19p' "$0"; exit 0 ;;
+    -h|--help) sed -n '2,17p' "$0"; exit 0 ;;
     *) echo "run.sh: unknown argument '$1' (try --help)" >&2; exit 1 ;;
   esac
   shift
@@ -87,7 +88,7 @@ done
 
 # ---- run ----
 python3 tools/state.py set "$unit" drafting --inc-runs --note "run started ($mode)" >/dev/null
-rm -f ".state/iter-$unit"
+rm -f ".state/iter-$unit" .state/limit
 export UNIT="$unit" MODE="$mode" COMMIT MAX_ITERS MAX_MINUTES STUCK_LIMIT MAKER_MODEL MAKER_EFFORT JUDGE_MODEL \
   MAKER_BUDGET_USD JUDGE_BUDGET_USD MAKER_TIMEOUT_MIN JUDGE_TIMEOUT_MIN CLAUDE_BIN
 echo "run.sh: john-$unit · $mode · MAX_ITERS=$MAX_ITERS · STUCK_LIMIT=$STUCK_LIMIT · maker $MAKER_MODEL · judge $JUDGE_MODEL"
@@ -98,14 +99,22 @@ rc=$?
 set -e
 
 # ---- record the outcome ----
-case "$rc" in
-  0) python3 tools/state.py set "$unit" review --stop 0 --note "checker and judge passed; waiting for your review" >/dev/null
-     echo "run.sh: john-$unit is ready for your doctrine review: study/john-$unit.md, then ./review.sh approve $unit" ;;
-  2|3|5) python3 tools/state.py set "$unit" stuck --stop "$rc" --note "read reviews/john-$unit.escalation.md" >/dev/null
-     python3 tools/state.py escalate "$unit" "$rc" ;;
-  4) python3 tools/state.py set "$unit" drafting --stop 4 --note "stopped by you ($STOP_FILE); rm it to resume" >/dev/null ;;
-  *) python3 tools/state.py set "$unit" drafting --stop 1 --note "loop.sh exited $rc" >/dev/null ;;
-esac
+if [ -f .state/limit ] && [ "$rc" != 0 ] && [ "$rc" != 5 ]; then
+  # The maker or judge hit Claude's usage limit (SF-15): the unit is paused, not stuck.
+  limit="$(tr -d '\t' < .state/limit)"; rm -f .state/limit
+  python3 tools/state.py set "$unit" drafting --stop "$rc" \
+    --note "Claude's usage limit ($limit); once it resets, rm $STOP_FILE and run again" >/dev/null
+  echo "run.sh: john-$unit paused at Claude's usage limit: $limit"
+else
+  case "$rc" in
+    0) python3 tools/state.py set "$unit" review --stop 0 --note "checker and judge passed; waiting for your review" >/dev/null
+       echo "run.sh: john-$unit is ready for your doctrine review: study/john-$unit.md, then ./review.sh approve $unit" ;;
+    2|3|5) python3 tools/state.py set "$unit" stuck --stop "$rc" --note "read reviews/john-$unit.escalation.md" >/dev/null
+       python3 tools/state.py escalate "$unit" "$rc" ;;
+    4) python3 tools/state.py set "$unit" drafting --stop 4 --note "stopped by you ($STOP_FILE); rm it to resume" >/dev/null ;;
+    *) python3 tools/state.py set "$unit" drafting --stop 1 --note "loop.sh exited $rc" >/dev/null ;;
+  esac
+fi
 if [ "$mode" = "real" ] && [ "$COMMIT" = "1" ]; then
   git add -A -- . >/dev/null 2>&1 &&
     git commit -q -m "loop(john-kjv-study) john-$unit: run ended with exit $rc" -- . >/dev/null 2>&1 || true
