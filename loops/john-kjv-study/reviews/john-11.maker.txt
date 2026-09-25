@@ -1,0 +1,25 @@
+I wrote the whole John 11 unit at `study/john-11.md`. The checker passed it on the second run: 139 quotations exact, all 57 verses printed and covered in 12 walkthrough blocks, 27 questions answered, 9 doctrine blocks, 96 Greek citations confirmed, 32,412 words. The first run failed on one thing only: a full stop inside a single-quoted phrase from John 11:25, which I moved outside the quote.
+
+**What's in it:**
+- **Lesson Map row kept:** the title, Big Idea, memory verse (John 11:25) and the "comfort one grieving person" objective all match unit 00.
+- **View A / View B:** whether Jesus' groaning in John 11:33 and 11:38 is anger or grief. The STEPBible lexicon lists John 11:33 under "to be moved with anger", and the unit says so, while noting that grief can go with it.
+- **Debate Corner:** what happens to believers between death and the resurrection, drawn from "sleepeth" (John 11:11) and John 11:25–26. It sets out three views:
+  - the dead sleep, unconscious (Adventist and Jehovah's Witness teaching);
+  - Bultmann's view that the resurrection is only a present reality of faith;
+  - the believer lives with Christ now and is raised bodily at the last day.
+
+  It argues for the third, with a Pastoral Warning about gravesides.
+- **Council's Hard Questions:** why Jesus waited two days; why he groaned and wept, and how that shows both natures; and how Caiaphas could prophesy, with who "the children of God" in John 11:52 are.
+- **Peter's restoration (decision D4):** John 11 uses both Greek words for love of Jesus' own love (John 11:3, 5, 36). The Deep Dive notes this only as a caution for John 21, without claiming it settles the question.
+
+**For a person to review:**
+- **Doctrine calls:**
+  - the conscious-intermediate-state reading in the Debate Corner;
+  - using the raising of Lazarus as a picture of regeneration (marked as secondary to the bodily miracle);
+  - definite atonement at John 11:52, with the Arminian reading stated;
+  - the "one people of God" line in the Ecclesiology block.
+- **Attributions marked "(verify)":** the full list is in `progress.md`. The main ones are Warfield's 1912 essay, Leo's Tome, Josephus on Caiaphas, the four-day belief in rabbinic sources, and the Westminster and Dort section numbers.
+
+I added two lines to the end of `progress.md` and one proposal to `proposals/prompt-upgrades.md` about the Greek tool's output. Nothing is blocked.
+
+STATUS: NOT YET · the checker passes; the judge's review and a person's doctrine review are still to come
