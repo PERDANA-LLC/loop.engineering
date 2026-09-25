@@ -1,0 +1,17 @@
+I fixed both lines the judge scored below 5 in `study/john-01.md`. The checker still passes.
+
+- **R6 (the judge's first fix):** In "Voices from Church History", the unit now says the Nicene Creed is "paraphrased here, not quoted". Before, it said "In its own words", which presented a paraphrase as a quotation. This is the same treatment the Westminster Confession citations already get.
+- **R7:** The rubric asks that every practice be doable within a day. I rewrote 11 practices that covered a whole week so each names one action on one day ("today", "tomorrow", or "pick one day"):
+  - the Outward Life and Light practices in Levels 5a and 5b and in Tier 4;
+  - the Tier 4 Inward practices that also covered the week;
+  - the humility practices, which had the same problem.
+
+  Every quotation and reference in them is unchanged. I didn't touch any other section.
+
+`python3 tools/check_study.py 01` → PASS: 231 quotations exact, 51/51 verses printed and expounded in 17 blocks, 65 Greek/Hebrew citations verified, 26,049 words.
+
+I appended the two log lines to `progress.md`. I also added a proposal to `proposals/prompt-upgrades.md`: the Planner column headers and several parts of `TEMPLATE.md` say "this week", while rubric R7 asks for practices doable within a day. That mismatch is probably what caused this R7 mark-down.
+
+A person still needs to check the attributions marked "(verify)" and the doctrine calls listed in iteration 1's log line.
+
+STATUS: NOT YET · the judge needs to re-score R6 and R7, and a person needs to review the (verify) attributions and the doctrine
