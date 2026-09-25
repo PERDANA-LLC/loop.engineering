@@ -2,22 +2,22 @@ unit	status	runs	last_stop	updated	reviewer	note
 00	review	1	DONE	2026-09-25T00:45:28Z		checker and judge passed; waiting for your review
 01	review	1	DONE	2026-09-25T01:10:43Z		checker and judge passed; waiting for your review
 02	review	2	DONE	2026-09-24T23:36:45Z		checker and judge passed; waiting for your review
-03	stuck	1	STUCK	2026-09-25T01:21:40Z		read reviews/john-03.escalation.md
-04	stuck	1	STUCK	2026-09-25T01:21:46Z		read reviews/john-04.escalation.md
-05	stuck	1	STUCK	2026-09-25T01:21:51Z		read reviews/john-05.escalation.md
-06	stuck	1	STUCK	2026-09-25T01:21:57Z		read reviews/john-06.escalation.md
-07	stuck	1	STUCK	2026-09-25T01:22:02Z		read reviews/john-07.escalation.md
-08	stuck	1	STUCK	2026-09-25T01:22:08Z		read reviews/john-08.escalation.md
-09	stuck	1	STUCK	2026-09-25T01:22:13Z		read reviews/john-09.escalation.md
-10	stuck	1	STUCK	2026-09-25T01:22:18Z		read reviews/john-10.escalation.md
-11	stuck	1	STUCK	2026-09-25T01:22:24Z		read reviews/john-11.escalation.md
-12	stuck	1	STUCK	2026-09-25T01:22:29Z		read reviews/john-12.escalation.md
-13	stuck	1	STUCK	2026-09-25T01:22:35Z		read reviews/john-13.escalation.md
-14	stuck	1	STUCK	2026-09-25T01:22:40Z		read reviews/john-14.escalation.md
-15	stuck	1	STUCK	2026-09-25T01:22:45Z		read reviews/john-15.escalation.md
-16	stuck	1	STUCK	2026-09-25T01:22:50Z		read reviews/john-16.escalation.md
-17	stuck	1	STUCK	2026-09-25T01:22:56Z		read reviews/john-17.escalation.md
-18	stuck	1	STUCK	2026-09-25T01:23:01Z		read reviews/john-18.escalation.md
-19	stuck	1	STUCK	2026-09-25T01:23:07Z		read reviews/john-19.escalation.md
-20	stuck	1	STUCK	2026-09-25T01:23:12Z		read reviews/john-20.escalation.md
-21	stuck	1	STUCK	2026-09-25T01:23:17Z		read reviews/john-21.escalation.md
+03	todo	1	STUCK	2026-09-25T04:22:50Z		reset 2026-09-25
+04	todo	1	STUCK	2026-09-25T04:22:50Z		reset 2026-09-25
+05	todo	1	STUCK	2026-09-25T04:22:50Z		reset 2026-09-25
+06	todo	1	STUCK	2026-09-25T04:22:50Z		reset 2026-09-25
+07	todo	1	STUCK	2026-09-25T04:22:50Z		reset 2026-09-25
+08	todo	1	STUCK	2026-09-25T04:22:50Z		reset 2026-09-25
+09	todo	1	STUCK	2026-09-25T04:22:50Z		reset 2026-09-25
+10	todo	1	STUCK	2026-09-25T04:22:50Z		reset 2026-09-25
+11	todo	1	STUCK	2026-09-25T04:22:50Z		reset 2026-09-25
+12	todo	1	STUCK	2026-09-25T04:22:50Z		reset 2026-09-25
+13	todo	1	STUCK	2026-09-25T04:22:50Z		reset 2026-09-25
+14	todo	1	STUCK	2026-09-25T04:22:50Z		reset 2026-09-25
+15	todo	1	STUCK	2026-09-25T04:22:51Z		reset 2026-09-25
+16	todo	1	STUCK	2026-09-25T04:22:51Z		reset 2026-09-25
+17	todo	1	STUCK	2026-09-25T04:22:51Z		reset 2026-09-25
+18	todo	1	STUCK	2026-09-25T04:22:51Z		reset 2026-09-25
+19	todo	1	STUCK	2026-09-25T04:22:51Z		reset 2026-09-25
+20	todo	1	STUCK	2026-09-25T04:22:51Z		reset 2026-09-25
+21	todo	1	STUCK	2026-09-25T04:22:51Z		reset 2026-09-25

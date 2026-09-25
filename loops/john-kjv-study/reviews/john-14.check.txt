@@ -1,3 +1,0 @@
-NOT YET · john-14 · deterministic checks found 1 problem(s). Fix every one, then stop.
-1. MISSING (whole file): /home/user/loop.engineering/loops/john-kjv-study/study/john-14.md does not exist yet. Write the unit following TEMPLATE.md.
-NOT YET · MISSING×1

@@ -44,8 +44,10 @@ def main(argv):
             alt = f" (also numbered {' '.join(others)})" if others else ""
             morphs = " + ".join(f"{m} = {kjvlib.expand_morph(m)}" for m in w["morphs"].split())
             lemma = f"{w['lemma']} '{w['gloss']}'" if w["lemma"] else "(TR reading)"
+            note = f"  (the data file reads '{w['translit_file']}', which doesn't match the Greek)" \
+                if "translit_file" in w else ""
             print(f"  #{w['n']:>2}  {w['greek']} ({w['translit']})  {strongs}{alt}  {morphs}  "
-                  f"lemma {lemma}  KJV-area gloss: {w['english']}")
+                  f"lemma {lemma}  KJV-area gloss: {w['english']}{note}")
             shown += 1
     if not shown:
         print("NOT FOUND · no Textus Receptus word matches", file=sys.stderr)

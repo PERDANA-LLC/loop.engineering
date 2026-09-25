@@ -1,4 +1,4 @@
-NOT YET · john-03 · deterministic checks found 14 problem(s). Fix every one, then stop.
+NOT YET · john-03 · deterministic checks found 11 problem(s). Fix every one, then stop.
 1. STRUCTURE (whole file): missing the "## Doctrine" section (or it is out of order); sections must follow TEMPLATE.md's order
 2. STRUCTURE (whole file): missing the "## Leader's Guide" section (or it is out of order); sections must follow TEMPLATE.md's order
 3. STRUCTURE (whole file): missing the "## The Council" section (or it is out of order); sections must follow TEMPLATE.md's order
@@ -6,11 +6,8 @@ NOT YET · john-03 · deterministic checks found 14 problem(s). Fix every one, t
 5. COUNT-UNBACKED (line 475): "2 times" is a count. Compute it with tools/concordance.py and add its line to the <!-- counts --> block, or write the number in words if it's a detail of the story
 6. QUOTE-UNREFERENCED (line 517): "like the Son of man" has no reference. Double quotation marks are only for Scripture, followed by (Book C:V). If it isn't Scripture, use single quotation marks or italics.
 7. COUNT-UNBACKED (line 556): "5 times" is a count. Compute it with tools/concordance.py and add its line to the <!-- counts --> block, or write the number in words if it's a detail of the story
-8. GREEK-TRANSLIT (line 558): *elegchthē* doesn't spell G1651: the lemma is elegchō and the form in John 3:20 is elegchthēa
-9. QUOTE-UNREFERENCED (line 664): "the washing of regeneration" has no reference. Double quotation marks are only for Scripture, followed by (Book C:V). If it isn't Scripture, use single quotation marks or italics.
-10. COUNT-UNBACKED (line 677): "13 times" is a count. Compute it with tools/concordance.py and add its line to the <!-- counts --> block, or write the number in words if it's a detail of the story
-11. COUNT-UNBACKED (line 679): "8 times" is a count. Compute it with tools/concordance.py and add its line to the <!-- counts --> block, or write the number in words if it's a detail of the story
-12. GREEK-TRANSLIT (line 679): *gennēthē* doesn't spell G1080: the lemma is gennaō and the form in John 3:3 is gennēthēa
-13. GREEK-TRANSLIT (line 691): *Elegchthē* doesn't spell G1651: the lemma is elegchō and the form in John 3:20 is elegchthēa
-14. SCRIPTURE-NEARMISS (line 691): 'lest his deeds be exposed' looks like John 3:20 (80% alike) but isn't its exact wording. The KJV reads: "For every one that doeth evil hateth the light, neither cometh to the light, lest his deeds should be reproved." Quote Scripture exactly (in double quotation marks with the reference), or put the thought in your own words without quotation marks.
-NOT YET · COUNT-UNBACKED×5 GREEK-TRANSLIT×3 QUOTE-UNREFERENCED×2 SCRIPTURE-NEARMISS×1 STRUCTURE×3
+8. QUOTE-UNREFERENCED (line 664): "the washing of regeneration" has no reference. Double quotation marks are only for Scripture, followed by (Book C:V). If it isn't Scripture, use single quotation marks or italics.
+9. COUNT-UNBACKED (line 677): "13 times" is a count. Compute it with tools/concordance.py and add its line to the <!-- counts --> block, or write the number in words if it's a detail of the story
+10. COUNT-UNBACKED (line 679): "8 times" is a count. Compute it with tools/concordance.py and add its line to the <!-- counts --> block, or write the number in words if it's a detail of the story
+11. SCRIPTURE-NEARMISS (line 691): 'lest his deeds be exposed' looks like John 3:20 (80% alike) but isn't its exact wording. The KJV reads: "For every one that doeth evil hateth the light, neither cometh to the light, lest his deeds should be reproved." Quote Scripture exactly (in double quotation marks with the reference), or put the thought in your own words without quotation marks.
+NOT YET · COUNT-UNBACKED×5 QUOTE-UNREFERENCED×2 SCRIPTURE-NEARMISS×1 STRUCTURE×3

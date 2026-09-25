@@ -483,11 +483,20 @@ def display_translit(entry):
     return given
 
 
+def word_translit(w):
+    """The word with the transliteration the tools print: the file's, unless it contradicts the Greek.
+    The file writes ῃ as 'ēa' (ἐλεγχθῇ, 'elegchthēa'), 1,468 words; its own reading stays in translit_file."""
+    own = greek_translit(w.get("greek") or "")
+    if not own or translit_key(own) == translit_key(w["translit"]):
+        return w
+    return dict(w, translit=own, translit_file=w["translit"])
+
+
 def words_in(ref_str, strong=None):
     words = greek_index().get(ref_str, [])
     if strong:
         words = [w for w in words if strong_key(strong) in word_strongs(w)]
-    return words
+    return [word_translit(w) for w in words]
 
 
 # Robinson-style morphology codes, as used by STEPBible's TAGNT.

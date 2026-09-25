@@ -11,6 +11,7 @@ Three groups:
   * fixture tests: the good John 2 unit that the loop itself wrote passes, and each known-bad
     mutation of it fails with the right code.
 The format and fixture tests are also the known-good / known-bad sample for CALC-1.
+One more, outside the checker: the usage-limit detector on the refusal's real shape (SF-15).
 """
 import os
 import re
@@ -171,6 +172,12 @@ class Greek(unittest.TestCase):
         self.assertEqual(codes_for("*hieron* (G2411, John 2:15) and *hierou* (G2411, John 2:15)"), [])
         self.assertEqual(codes_for("*hieros* (G2411, John 2:15)"), ["GREEK-TRANSLIT"])
         self.assertEqual(codes_for("*hieros* (G2413, 2 Timothy 3:15)"), [])
+
+    def test_a_word_transliteration_that_contradicts_its_greek(self):
+        # SF-14: the Greek text file writes ῃ as 'ēa' (ἐλεγχθῇ, 'elegchthēa'); the first John 3 draft's
+        # correct forms failed. Now the Greek decides for a verse's words too.
+        self.assertEqual(codes_for("*elegchthē* (G1651, John 3:20) and *gennēthē* (G1080, John 3:3)"), [])
+        self.assertEqual(codes_for("*elegchthēa* (G1651, John 3:20)"), ["GREEK-TRANSLIT"])
 
     def test_standard_spelling_of_a_diphthong_with_breathing(self):
         # The lexicon writes the breathing inside a diphthong (ohutos, uhios); the standard spelling passes.
@@ -359,6 +366,23 @@ class Fixtures(unittest.TestCase):
     def test_flawed_fixture_is_not_yet(self):
         flawed = os.path.join(HERE, "fixtures", "john-02.flawed.md")
         self.assertIn("QUOTE-MISMATCH", check_file("02", read(flawed)))
+
+
+class UsageLimit(unittest.TestCase):
+    # SF-15: the refusal as the Claude Code CLI returned it during the John run, trimmed to what matters.
+    REFUSED = {"type": "result", "subtype": "success", "is_error": True, "api_error_status": 429,
+               "terminal_reason": "api_error", "total_cost_usd": 0,
+               "result": "You've hit your session limit \u00b7 resets 4:10am (UTC)"}
+
+    def test_the_refusal_is_a_usage_limit(self):
+        import usage_limit
+        self.assertEqual(usage_limit.hit(self.REFUSED), "You've hit your session limit \u00b7 resets 4:10am (UTC)")
+
+    def test_an_ordinary_result_is_not(self):
+        import usage_limit
+        self.assertEqual(usage_limit.hit({"is_error": False, "result": "STATUS: NOT YET · limit of 6 verses"}), "")
+        self.assertEqual(usage_limit.hit({}), "")
+        self.assertEqual(usage_limit.hit(None), "")
 
 
 if __name__ == "__main__":

@@ -17,7 +17,9 @@ import os
 import subprocess
 import sys
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+import usage_limit
+
+ROOT =os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATE = os.path.join(ROOT, ".state")
 
 
@@ -100,6 +102,9 @@ review notes: reviews/john-{unit}.human.md ({'exists' if os.path.exists(os.path.
     with open(os.path.join(ROOT, f"reviews/john-{unit}.maker.txt"), "w", encoding="utf-8") as f:
         f.write(reply)
     subprocess.run([sys.executable, os.path.join(ROOT, "tools/state.py"), "cost", "maker", unit, str(n), out_json])
+    limit = usage_limit.hit(result)
+    if limit:
+        usage_limit.stop("maker", unit, limit)
     status = next((l for l in reversed(reply.splitlines()) if l.startswith("STATUS:")), "STATUS: (none reported)")
     minutes = (datetime.datetime.now() - started).total_seconds() / 60
     denials = len(result.get("permission_denials") or [])
