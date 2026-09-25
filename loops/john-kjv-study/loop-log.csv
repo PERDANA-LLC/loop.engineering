@@ -60,3 +60,5 @@ iteration,started_at,action,check_result,stop_reason,tokens_in,tokens_out,diff_l
 1,2026-09-25T10:52:36Z,agent,fail,,,,3,"NOT YET · STRUCTURE×7"
 2,2026-09-25T10:59:35Z,none,skipped,HUMAN,,,4,"stop file found"
 1,2026-09-25T14:13:00Z,agent,pass,DONE,,,613,"JUDGE PASS · R1=5 R2=5 R3=5 R4=5 R5=5 R6=5 R7=5 R8=4 R9=5"
+1,2026-09-25T14:30:32Z,agent,fail,,,,3,"NOT YET · MISSING×1"
+2,2026-09-25T14:32:08Z,none,skipped,HUMAN,,,4,"stop file found"

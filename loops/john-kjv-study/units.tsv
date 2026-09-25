@@ -12,7 +12,7 @@ unit	status	runs	last_stop	updated	reviewer	note
 10	review	2	DONE	2026-09-25T10:32:07Z		checker and judge passed; waiting for your review
 11	review	2	DONE	2026-09-25T10:52:33Z		checker and judge passed; waiting for your review
 12	review	3	DONE	2026-09-25T14:30:29Z		checker and judge passed; waiting for your review
-13	todo	1	STUCK	2026-09-25T04:22:50Z		reset 2026-09-25
+13	drafting	2	HUMAN	2026-09-25T14:32:08Z		Claude's usage limit (the maker, 2026-09-25 14:32 UTC: You've hit your weekly limit · resets Sep 28, 1am (UTC)); once it
 14	todo	1	STUCK	2026-09-25T04:22:50Z		reset 2026-09-25
 15	todo	1	STUCK	2026-09-25T04:22:51Z		reset 2026-09-25
 16	todo	1	STUCK	2026-09-25T04:22:51Z		reset 2026-09-25
