@@ -11,7 +11,7 @@ unit	status	runs	last_stop	updated	reviewer	note
 09	review	2	DONE	2026-09-25T10:09:40Z		checker and judge passed; waiting for your review
 10	review	2	DONE	2026-09-25T10:32:07Z		checker and judge passed; waiting for your review
 11	review	2	DONE	2026-09-25T10:52:33Z		checker and judge passed; waiting for your review
-12	drafting	2	HUMAN	2026-09-25T10:59:35Z		Claude's usage limit (the maker, 2026-09-25 10:59 UTC: You've hit your session limit · resets 2:10pm (UTC)); once it res
+12	review	3	DONE	2026-09-25T14:30:29Z		checker and judge passed; waiting for your review
 13	todo	1	STUCK	2026-09-25T04:22:50Z		reset 2026-09-25
 14	todo	1	STUCK	2026-09-25T04:22:50Z		reset 2026-09-25
 15	todo	1	STUCK	2026-09-25T04:22:51Z		reset 2026-09-25

@@ -1,0 +1,60 @@
+{
+  "scores": [
+    {
+      "line": "R1",
+      "score": 5,
+      "evidence": "'six days before the passover' (John 12:1), the third Passover John names (John 2:13; 6:4; 11:55)",
+      "fix": "None needed — chronology, persons, and places are accurate and contested points (e.g. John 12:27 prayer/question, John 12:41 hote/hoti) are marked as contested."
+    },
+    {
+      "line": "R2",
+      "score": 5,
+      "evidence": "Every problem in John 12 is answered in Jesus... And every good thing the chapter holds is found in Christ.",
+      "fix": "None needed — Gospel Foundation is Jesus' own words/acts in the chapter, and practices keep source discipline (e.g. 'trusting him with what will grow from it')."
+    },
+    {
+      "line": "R3",
+      "score": 5,
+      "evidence": "A grain that stays in a jar stays all alone... he was going to die on a cross (Tier 1); Debate Corner (Tier 3)",
+      "fix": "None needed — Tier 1 is child-readable, Tier 3 is seminary-level, and participant questions are open and text-driven throughout."
+    },
+    {
+      "line": "R4",
+      "score": 5,
+      "evidence": "Says / Means / Asks kept distinct in every Walkthrough block, e.g. John 12:4–8 on Judas and the bag",
+      "fix": "None needed — each block observes, explains with OT/Johannine background, and asks, without blurring the three."
+    },
+    {
+      "line": "R5",
+      "score": 5,
+      "evidence": "'Assumed Here: Pneumatology... John 12 does not teach about the Holy Spirit directly'",
+      "fix": "None needed — propositions are chapter-anchored, errors are stated as holders would recognize them, and untaught categories are flagged rather than forced."
+    },
+    {
+      "line": "R6",
+      "score": 5,
+      "evidence": "'Every Greek definition below comes from one source: the brief lexicon published by STEPBible.org... verify' used pervasively for sources and history",
+      "fix": "None needed — sources are named and summarized (not quoted), doubtful claims are flagged '(verify)' throughout, and no invented quotations, sources, or overstated Greek claims were found."
+    },
+    {
+      "line": "R7",
+      "score": 5,
+      "evidence": "'Judas... had the bag... tried to steal the worth of Mary's worship by putting a price on it' names the theft in chapter terms",
+      "fix": "None needed — Theft/Darkness, Source/Channel/Lamp, and guards are drawn from the text, and the Audit's three risks are each answered with a concrete unit-internal fix."
+    },
+    {
+      "line": "R8",
+      "score": 4,
+      "evidence": "'Setting the Scene and Read & Mark | 12 | ...read John 12 aloud while everyone marks' covers a 50-verse chapter plus intro",
+      "fix": "In the Session Plan table, extend the 'Setting the Scene and Read & Mark' segment (currently 12 min) to at least 18–20 min, or move the shortened Setting the Scene reading to pre-session homework, since reading all 50 verses aloud with assigned parts plus the scene intro realistically exceeds 12 minutes."
+    },
+    {
+      "line": "R9",
+      "score": 5,
+      "evidence": "'It serves John's purpose for the whole book, that we might have life through his name (John 20:31)'",
+      "fix": "None needed — the unit engages the hour, glory, lifted-up sayings, light/darkness, irony, and Isaiah's vision as distinctly Johannine material tied to the Gospel's stated purpose."
+    }
+  ],
+  "verdict": "PASS",
+  "first_fix": ""
+}

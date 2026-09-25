@@ -1,1 +1,30 @@
-You've hit your session limit · resets 2:10pm (UTC)
+I finished John 12, and the checker now passes it. The last run stopped partway through; this run added the seven sections it said were missing.
+
+**What was there and what I added:** everything from the title through "Closing & Going Deeper" was already written, and I left it unchanged. I added:
+- **Tier 1** for a young reader, and a **Tier 2** walkthrough of all 50 verses in 14 blocks, with a Common Errors table and Cultural Landmines.
+- **Tier 3:**
+  - The main debate is what "they could not believe" means (John 12:39–40). It argues for God's judicial hardening and states the two other main readings fairly.
+  - A Greek word study, and notes on five places where the manuscripts differ (John 12:1, 7, 17, 32, 41).
+- **Tier 4:** three sets of practices for the leader.
+- **Doctrine:** 10 blocks, one for each point already listed in "Doctrine in My Own Words". The Holy Spirit is listed under "Assumed Here", since the chapter doesn't teach about him directly.
+- **The Council's three Hard Questions:**
+  - Is John's anointing the same event as Mark's and Matthew's?
+  - Is "Father, save me from this hour" a prayer or a question?
+  - Whose glory did Isaiah see?
+
+  The Life & Light Audit follows them.
+- **The Leader's Guide:** a 75-minute session plan, answers to all 27 questions, a glossary, the Leader's Map, shepherding notes, and teaching angles.
+
+**Checker:** the first run found two problems. Both were a shortened quotation of John 12:32 inside single quotes. I rewrote them in plain words, and the next two runs passed: 139 quotations exact, all 50 verses printed and explained, 27 questions answered, 104 Greek and Hebrew citations verified.
+
+**For the person who reviews the doctrine:** the unit takes several positions a reviewer should approve:
+- God's hardening of unbelief is a real, active judgment (John 12:40).
+- "All men" in John 12:32 means all kinds of people, drawn in a way that actually brings them to Christ.
+- The KJV's wording of John 12:27, a real prayer, is kept, with the question reading allowed.
+- Matthew, Mark, and John describe one anointing.
+
+The unit also marks many attributions to check (the church fathers, Calvin, the Westminster and Dort documents, Bauckham, and the manuscript notes) with "(verify)". Both lists are in the `progress.md` log line.
+
+I appended the two log lines to `progress.md`. I made no new proposal, because the idea of making interrupted runs easier to resume seems to be in `proposals/prompt-upgrades.md` already.
+
+STATUS: NOT YET · the checker passes; the unit still needs the judge's review and a person's doctrine approval
