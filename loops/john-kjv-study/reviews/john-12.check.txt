@@ -1,0 +1,9 @@
+NOT YET · john-12 · deterministic checks found 7 problem(s). Fix every one, then stop.
+1. STRUCTURE (whole file): missing the "## Doctrine" section (or it is out of order); sections must follow TEMPLATE.md's order
+2. STRUCTURE (whole file): missing the "## Leader's Guide" section (or it is out of order); sections must follow TEMPLATE.md's order
+3. STRUCTURE (whole file): missing the "## The Council" section (or it is out of order); sections must follow TEMPLATE.md's order
+4. STRUCTURE (whole file): missing the "## Tier 1" section (or it is out of order); sections must follow TEMPLATE.md's order
+5. STRUCTURE (whole file): missing the "## Tier 2" section (or it is out of order); sections must follow TEMPLATE.md's order
+6. STRUCTURE (whole file): missing the "## Tier 3" section (or it is out of order); sections must follow TEMPLATE.md's order
+7. STRUCTURE (whole file): missing the "## Tier 4" section (or it is out of order); sections must follow TEMPLATE.md's order
+NOT YET · STRUCTURE×7
