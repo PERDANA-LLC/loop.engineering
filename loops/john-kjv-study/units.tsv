@@ -5,7 +5,7 @@ unit	status	runs	last_stop	updated	reviewer	note
 03	stuck	1	STUCK	2026-09-25T01:21:40Z		read reviews/john-03.escalation.md
 04	stuck	1	STUCK	2026-09-25T01:21:46Z		read reviews/john-04.escalation.md
 05	stuck	1	STUCK	2026-09-25T01:21:51Z		read reviews/john-05.escalation.md
-06	todo	0				
+06	stuck	1	STUCK	2026-09-25T01:21:57Z		read reviews/john-06.escalation.md
 07	todo	0				
 08	todo	0				
 09	todo	0				
