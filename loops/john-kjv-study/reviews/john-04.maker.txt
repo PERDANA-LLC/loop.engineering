@@ -1,0 +1,24 @@
+I wrote the whole John 4 unit to `study/john-04.md`, and `tools/check_study.py 04` now passes it: 197 quotations exact, all 54 verses printed and explained in 16 walkthrough blocks, 27 questions answered, 10 doctrine blocks, 115 Greek and Hebrew citations verified, 29,222 words. The first checker run found six near-miss quotations. Five were exact KJV phrases with my own question mark or full stop inside the closing quote; the sixth was a loose paraphrase of Isaiah 55:2. I fixed all six and the second run passed. The judge and a person still have to review it.
+
+**What's in it:**
+- **From the Lesson Map:** it keeps the Lesson Map's title, Big Idea, and memory verse (John 4:14).
+- **Participant pages:** the View A / View B panel asks whether 'in spirit and in truth' (John 4:23–24) means the worshipper's own inner spirit, or the Holy Spirit and Christ, who is the truth.
+- **Debate Corner:** what John 4:23–24 requires of the church's worship. It sets out three positions: sincerity is all that matters, the Lutheran and Anglican view that anything Scripture doesn't forbid is allowed, and the Reformed view that God is worshipped only as Scripture directs. It argues for the Reformed view and notes that John 4:24 alone doesn't settle the question.
+- **Council's Hard Questions:** what the text actually says about the woman's history, what the living water is, and which country is 'his own' in John 4:44, with Jesus' rebuke of sign-seeking in John 4:48.
+- **Textual notes:** two places where many modern editions differ from the KJV. In John 4:1 they read 'Jesus' for 'the Lord', and in John 4:42 they leave out 'the Christ'.
+- **Claims I softened before running the checker:**
+  - I removed a guessed distance from Cana to Capernaum.
+  - I no longer credit John with the other Gospels' habit of Jesus telling people to keep quiet about him.
+  - The summary of the Council of Chalcedon is now marked as a paraphrase, not a quotation.
+
+**For a person to check:**
+- **Attributions marked "(verify)":** Origen, Augustine, Chrysostom, Calvin, Ryle, Westcott, Carson, Brown, Daube, Josephus, Bonar's hymn, the confessions and catechism, and the manuscript claims.
+- **Doctrine calls:**
+  - that the Reformed view of worship is the one argued
+  - that the living water is read as the Spirit
+  - that 'his own country' is read as Galilee
+  - that other views are stated fairly: Latter-day Saint teaching that God has a body, Pentecostal teaching on a later gift of the Spirit, kenotic Christology (that the Son laid aside divine powers), and religious pluralism
+
+I added the two report lines to `progress.md`. I also added one proposal to `proposals/prompt-upgrades.md`: TEMPLATE.md rule 2 could say to put your own punctuation outside a single-quoted Scripture phrase, which would have avoided five of the six failures.
+
+STATUS: NOT YET · the checker passes; the judge's review and a person's doctrine approval (including the attributions marked "(verify)") are still to come

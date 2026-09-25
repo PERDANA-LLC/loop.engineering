@@ -55,3 +55,5 @@ time,unit,iteration,role,model,tokens_in,cache_read,tokens_out,cost_usd,turns,er
 2026-09-25T01:23:17Z,21,2,maker,opus,0,0,0,0.0,1,success
 2026-09-25T04:29:26Z,03,1,maker,opus,3350393,3177963,35051,2.7158,34,
 2026-09-25T04:31:33Z,03,1,judge,sonnet,61792,0,10279,0.35,2,
+2026-09-25T04:49:01Z,04,1,maker,opus,10977244,10697109,105267,6.4854,76,
+2026-09-25T04:51:57Z,04,1,judge,sonnet,69428,5104,14251,0.4008,2,
