@@ -52,3 +52,5 @@ iteration,started_at,action,check_result,stop_reason,tokens_in,tokens_out,diff_l
 1,2026-09-25T05:32:26Z,agent,fail,,,,3,"NOT YET · COUNT-UNBACKED×5 SCRIPTURE-NEARMISS×2 STRUCTURE×3"
 2,2026-09-25T05:44:08Z,none,skipped,HUMAN,,,4,"stop file found"
 1,2026-09-25T09:13:28Z,agent,pass,DONE,,,319,"JUDGE PASS · R1=5 R2=5 R3=5 R4=5 R5=5 R6=5 R7=5 R8=4 R9=5"
+1,2026-09-25T09:22:38Z,agent,fail,,,,7,"JUDGE NOT YET · R1=5 R2=5 R3=5 R4=5 R5=5 R6=4 R7=5 R8=5 R9=5"
+2,2026-09-25T09:45:10Z,agent,pass,DONE,,,12,"JUDGE PASS · R1=5 R2=5 R3=4 R4=5 R5=5 R6=5 R7=5 R8=5 R9=5"

@@ -7,7 +7,7 @@ unit	status	runs	last_stop	updated	reviewer	note
 05	review	2	DONE	2026-09-25T05:11:35Z		checker and judge passed; waiting for your review
 06	review	2	DONE	2026-09-25T05:32:23Z		checker and judge passed; waiting for your review
 07	review	3	DONE	2026-09-25T09:22:36Z		checker and judge passed; waiting for your review
-08	todo	1	STUCK	2026-09-25T04:22:50Z		reset 2026-09-25
+08	review	2	DONE	2026-09-25T09:48:49Z		checker and judge passed; waiting for your review
 09	todo	1	STUCK	2026-09-25T04:22:50Z		reset 2026-09-25
 10	todo	1	STUCK	2026-09-25T04:22:50Z		reset 2026-09-25
 11	todo	1	STUCK	2026-09-25T04:22:50Z		reset 2026-09-25

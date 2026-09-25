@@ -1,0 +1,11 @@
+I fixed the one problem the judge found. It had scored the unit 5 on every rubric line except R6 (honest claims), which got a 4. The reason was a single sentence in the Theology Proper doctrine block of `study/john-08.md` that credited the Trinity's confessional shape to "Nicaea and Chalcedon." That was wrong: Nicaea (325) and Constantinople (381) formulated the doctrine of the Trinity, and Chalcedon (451) dealt with a separate question, Christ's two natures.
+
+- **The fix:** the sentence now names Nicaea (325) and Constantinople (381) for the teaching that the Son is of one substance with the Father, still marked as summarized rather than quoted. Chalcedon (451) is named separately for the question of how Christ is truly God and truly man.
+- **One follow-on wording change:** the next sentence said John 8 was one of "its" chief foundations, which became unclear once Chalcedon had its own clause. It now says "the chief biblical foundations of the Trinitarian confession."
+- **Nothing else changed.**
+- **Checker:** `check_study.py 08` passes on one run (150 quotations exact, 59/59 verses, 151 Greek/Hebrew citations, 32,355 words).
+- **progress.md:** I appended the two log lines.
+
+A person still needs to check the "(verify)"-flagged attributions and the doctrine calls listed in the iteration 1 log.
+
+STATUS: NOT YET · R6 fix made and the checker passes; waiting for the judge's re-score and a person's doctrine approval
